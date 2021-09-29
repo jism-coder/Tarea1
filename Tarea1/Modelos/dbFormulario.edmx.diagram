@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="4fdf8b0811a14839b214b1ac39172a7e" Name="Diagram1">
+        <EntityTypeShape EntityType="CNSFFORMULARIOS2Model.IntellIDE_Autorizacion_Agentes_de_Seguros" Width="1.5" PointX="10.75" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CNSFFORMULARIOS2Model.IntellIDE_PRUEBA01" Width="1.5" PointX="12.75" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CNSFFORMULARIOS2Model.IntellIDE_PRUEBA02" Width="1.5" PointX="14.75" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CNSFFORMULARIOS2Model.IntellIDE_Refrendo_de_Agente_de_Seguros" Width="1.5" PointX="16.75" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CNSFFORMULARIOS2Model.IntellIDE_Tramite_de_prueba" Width="1.5" PointX="18.75" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CNSFFORMULARIOS2Model.TB_ACTIVIDADES" Width="1.5" PointX="3" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="CNSFFORMULARIOS2Model.TB_CLASIFICACION" Width="1.5" PointX="6" PointY="20.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CNSFFORMULARIOS2Model.TB_COMENTARIOS" Width="1.5" PointX="7.75" PointY="16.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CNSFFORMULARIOS2Model.TB_DIRECCIONES" Width="1.5" PointX="5.25" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CNSFFORMULARIOS2Model.TB_DOCUMENTOS" Width="1.5" PointX="8.25" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="CNSFFORMULARIOS2Model.TB_DOCUMENTOS_TRAMITES" Width="1.5" PointX="8.25" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CNSFFORMULARIOS2Model.TB_INSTITUCIONES" Width="1.5" PointX="0.75" PointY="11.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="CNSFFORMULARIOS2Model.TB_LOG" Width="1.5" PointX="5.25" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CNSFFORMULARIOS2Model.TB_MISDOCUMENTOS" Width="1.5" PointX="5.25" PointY="16" IsExpanded="true" />
+        <EntityTypeShape EntityType="CNSFFORMULARIOS2Model.TB_OFICINAS" Width="1.5" PointX="0.75" PointY="22.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CNSFFORMULARIOS2Model.TB_OFICINAS_TB_TRAMITES" Width="1.5" PointX="2.75" PointY="22.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CNSFFORMULARIOS2Model.TB_TIPO_DOCUMENTOS" Width="1.5" PointX="3" PointY="18.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="CNSFFORMULARIOS2Model.TB_TRAMITES" Width="1.5" PointX="6" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CNSFFORMULARIOS2Model.TB_TRAMITES_TB_CLASIFICACION" Width="1.5" PointX="8.25" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CNSFFORMULARIOS2Model.TB_USER_TB_TRAMITES" Width="1.5" PointX="20.75" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CNSFFORMULARIOS2Model.TB_USERS" Width="1.5" PointX="3" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="CNSFFORMULARIOS2Model.TB_HTMLS" Width="1.5" PointX="20.75" PointY="6.25" IsExpanded="true" />
+        <AssociationConnector Association="CNSFFORMULARIOS2Model.FK_TB_LOG_TB_ACTIVIDADES" ManuallyRouted="false" />
+        <AssociationConnector Association="CNSFFORMULARIOS2Model.FK_TB_TRAMITES_TB_CLASIFICACION_TB_CLASIFICACION" ManuallyRouted="false" />
+        <AssociationConnector Association="CNSFFORMULARIOS2Model.FK_TB_TRAMITES_TB_CLASIFICACION_TB_CLASIFICACION1" ManuallyRouted="false" />
+        <AssociationConnector Association="CNSFFORMULARIOS2Model.FK_TB_DIRECCIONES_TB_USERS" ManuallyRouted="false" />
+        <AssociationConnector Association="CNSFFORMULARIOS2Model.FK_TB_DOCUMENTOS_TB_TRAMITES" ManuallyRouted="false" />
+        <AssociationConnector Association="CNSFFORMULARIOS2Model.FK_TB_DOCUMENTOS_TB_USERS" ManuallyRouted="false" />
+        <AssociationConnector Association="CNSFFORMULARIOS2Model.FK_TB_DOCUMENTOS_TRAMITES_TB_DOCUMENTOS" ManuallyRouted="false" />
+        <AssociationConnector Association="CNSFFORMULARIOS2Model.FK_TB_DOCUMENTOS_TRAMITES_TB_TRAMITES" ManuallyRouted="false" />
+        <AssociationConnector Association="CNSFFORMULARIOS2Model.FK_TB_USERS_TB_INSTITUCIONES" ManuallyRouted="false" />
+        <AssociationConnector Association="CNSFFORMULARIOS2Model.FK_TB_LOG_TB_USERS" ManuallyRouted="false" />
+        <AssociationConnector Association="CNSFFORMULARIOS2Model.FK_TB_MISDOCUMENTOS_TB_TIPO_DOCUMENTOS" ManuallyRouted="false" />
+        <AssociationConnector Association="CNSFFORMULARIOS2Model.FK_TB_MISDOCUMENTOS_TB_TRAMITES" ManuallyRouted="false" />
+        <AssociationConnector Association="CNSFFORMULARIOS2Model.FK_TB_MISDOCUMENTOS_TB_USERS" ManuallyRouted="false" />
+        <AssociationConnector Association="CNSFFORMULARIOS2Model.FK_TB_TRAMITES_TB_CLASIFICACION_TB_TRAMITES" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

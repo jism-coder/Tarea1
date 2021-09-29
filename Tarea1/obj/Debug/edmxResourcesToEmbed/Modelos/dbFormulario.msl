@@ -1,0 +1,778 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="CNSFFORMULARIOS2ModelStoreContainer" CdmEntityContainer="CNSFFORMULARIOS2Entities">
+    <EntitySetMapping Name="IntellIDE_Autorizacion_Agentes_de_Seguros">
+      <EntityTypeMapping TypeName="CNSFFORMULARIOS2Model.IntellIDE_Autorizacion_Agentes_de_Seguros">
+        <MappingFragment StoreEntitySet="IntellIDE_Autorizacion Agentes de Seguros">
+          <ScalarProperty Name="ContentTypeId" ColumnName="ContentTypeId" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="C_ModerationComments" ColumnName="_ModerationComments" />
+          <ScalarProperty Name="File_x0020_Type" ColumnName="File_x0020_Type" />
+          <ScalarProperty Name="IntellideUsuario" ColumnName="IntellideUsuario" />
+          <ScalarProperty Name="f_Nombre" ColumnName="f_Nombre" />
+          <ScalarProperty Name="f_Apellido" ColumnName="f_Apellido" />
+          <ScalarProperty Name="f_Materno" ColumnName="f_Materno" />
+          <ScalarProperty Name="f_Email" ColumnName="f_Email" />
+          <ScalarProperty Name="f_RFC" ColumnName="f_RFC" />
+          <ScalarProperty Name="f_CURP" ColumnName="f_CURP" />
+          <ScalarProperty Name="f_FechaNacimiento" ColumnName="f_FechaNacimiento" />
+          <ScalarProperty Name="f_LugarNacimiento" ColumnName="f_LugarNacimiento" />
+          <ScalarProperty Name="f_Nacionalidad" ColumnName="f_Nacionalidad" />
+          <ScalarProperty Name="f_Escolaridad" ColumnName="f_Escolaridad" />
+          <ScalarProperty Name="f_TelefonoParticular" ColumnName="f_TelefonoParticular" />
+          <ScalarProperty Name="f_TelefonoOficina" ColumnName="f_TelefonoOficina" />
+          <ScalarProperty Name="f_TelefonoCelular" ColumnName="f_TelefonoCelular" />
+          <ScalarProperty Name="f_Calle" ColumnName="f_Calle" />
+          <ScalarProperty Name="f_NoExterior" ColumnName="f_NoExterior" />
+          <ScalarProperty Name="f_NoInterior" ColumnName="f_NoInterior" />
+          <ScalarProperty Name="f_CP" ColumnName="f_CP" />
+          <ScalarProperty Name="f_Colonia" ColumnName="f_Colonia" />
+          <ScalarProperty Name="f_Poblacion" ColumnName="f_Poblacion" />
+          <ScalarProperty Name="f_Estado" ColumnName="f_Estado" />
+          <ScalarProperty Name="f_Calle2" ColumnName="f_Calle2" />
+          <ScalarProperty Name="f_NoExterior2" ColumnName="f_NoExterior2" />
+          <ScalarProperty Name="f_NoInterior2" ColumnName="f_NoInterior2" />
+          <ScalarProperty Name="f_CP2" ColumnName="f_CP2" />
+          <ScalarProperty Name="f_Colonia2" ColumnName="f_Colonia2" />
+          <ScalarProperty Name="f_Poblacion2" ColumnName="f_Poblacion2" />
+          <ScalarProperty Name="f_Estado2" ColumnName="f_Estado2" />
+          <ScalarProperty Name="f_Instituciones" ColumnName="f_Instituciones" />
+          <ScalarProperty Name="Author" ColumnName="Author" />
+          <ScalarProperty Name="Editor" ColumnName="Editor" />
+          <ScalarProperty Name="Modified" ColumnName="Modified" />
+          <ScalarProperty Name="Created" ColumnName="Created" />
+          <ScalarProperty Name="Cedula" ColumnName="Cedula" />
+          <ScalarProperty Name="campo2" ColumnName="campo2" />
+          <ScalarProperty Name="campo3" ColumnName="campo3" />
+          <ScalarProperty Name="campo4" ColumnName="campo4" />
+          <ScalarProperty Name="campo5" ColumnName="campo5" />
+          <ScalarProperty Name="campo6" ColumnName="campo6" />
+          <ScalarProperty Name="campo7" ColumnName="campo7" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ContentType" ColumnName="ContentType" />
+          <ScalarProperty Name="C_HasCopyDestinations" ColumnName="_HasCopyDestinations" />
+          <ScalarProperty Name="C_CopySource" ColumnName="_CopySource" />
+          <ScalarProperty Name="owshiddenversion" ColumnName="owshiddenversion" />
+          <ScalarProperty Name="WorkflowVersion" ColumnName="WorkflowVersion" />
+          <ScalarProperty Name="C_UIVersion" ColumnName="_UIVersion" />
+          <ScalarProperty Name="C_UIVersionString" ColumnName="_UIVersionString" />
+          <ScalarProperty Name="Attachments" ColumnName="Attachments" />
+          <ScalarProperty Name="C_ModerationStatus" ColumnName="_ModerationStatus" />
+          <ScalarProperty Name="Edit" ColumnName="Edit" />
+          <ScalarProperty Name="LinkTitleNoMenu" ColumnName="LinkTitleNoMenu" />
+          <ScalarProperty Name="LinkTitle" ColumnName="LinkTitle" />
+          <ScalarProperty Name="LinkTitle2" ColumnName="LinkTitle2" />
+          <ScalarProperty Name="SelectTitle" ColumnName="SelectTitle" />
+          <ScalarProperty Name="InstanceID" ColumnName="InstanceID" />
+          <ScalarProperty Name="Order" ColumnName="Order" />
+          <ScalarProperty Name="GUID" ColumnName="GUID" />
+          <ScalarProperty Name="WorkflowInstanceID" ColumnName="WorkflowInstanceID" />
+          <ScalarProperty Name="FileRef" ColumnName="FileRef" />
+          <ScalarProperty Name="FileDirRef" ColumnName="FileDirRef" />
+          <ScalarProperty Name="Last_x0020_Modified" ColumnName="Last_x0020_Modified" />
+          <ScalarProperty Name="Created_x0020_Date" ColumnName="Created_x0020_Date" />
+          <ScalarProperty Name="FSObjType" ColumnName="FSObjType" />
+          <ScalarProperty Name="SortBehavior" ColumnName="SortBehavior" />
+          <ScalarProperty Name="PermMask" ColumnName="PermMask" />
+          <ScalarProperty Name="FileLeafRef" ColumnName="FileLeafRef" />
+          <ScalarProperty Name="UniqueId" ColumnName="UniqueId" />
+          <ScalarProperty Name="SyncClientId" ColumnName="SyncClientId" />
+          <ScalarProperty Name="ProgId" ColumnName="ProgId" />
+          <ScalarProperty Name="ScopeId" ColumnName="ScopeId" />
+          <ScalarProperty Name="HTML_x0020_File_x0020_Type" ColumnName="HTML_x0020_File_x0020_Type" />
+          <ScalarProperty Name="C_EditMenuTableStart" ColumnName="_EditMenuTableStart" />
+          <ScalarProperty Name="C_EditMenuTableStart2" ColumnName="_EditMenuTableStart2" />
+          <ScalarProperty Name="C_EditMenuTableEnd" ColumnName="_EditMenuTableEnd" />
+          <ScalarProperty Name="LinkFilenameNoMenu" ColumnName="LinkFilenameNoMenu" />
+          <ScalarProperty Name="LinkFilename" ColumnName="LinkFilename" />
+          <ScalarProperty Name="LinkFilename2" ColumnName="LinkFilename2" />
+          <ScalarProperty Name="DocIcon" ColumnName="DocIcon" />
+          <ScalarProperty Name="ServerUrl" ColumnName="ServerUrl" />
+          <ScalarProperty Name="EncodedAbsUrl" ColumnName="EncodedAbsUrl" />
+          <ScalarProperty Name="BaseName" ColumnName="BaseName" />
+          <ScalarProperty Name="MetaInfo" ColumnName="MetaInfo" />
+          <ScalarProperty Name="C_Level" ColumnName="_Level" />
+          <ScalarProperty Name="C_IsCurrentVersion" ColumnName="_IsCurrentVersion" />
+          <ScalarProperty Name="ItemChildCount" ColumnName="ItemChildCount" />
+          <ScalarProperty Name="FolderChildCount" ColumnName="FolderChildCount" />
+          <ScalarProperty Name="IntellIDE_GUID" ColumnName="IntellIDE_GUID" />
+          <ScalarProperty Name="IntellIDE_Owner" ColumnName="IntellIDE_Owner" />
+          <ScalarProperty Name="IntellIDE_Status" ColumnName="IntellIDE_Status" />
+          <ScalarProperty Name="IntellIDE_CreatedDate" ColumnName="IntellIDE_CreatedDate" />
+          <ScalarProperty Name="IntellIDE_ModifyDate" ColumnName="IntellIDE_ModifyDate" />
+          <ScalarProperty Name="IntellIDE_PK_Autorizacion_Agentes_de_Seguros" ColumnName="IntellIDE_PK_Autorizacion Agentes de Seguros" />
+          <ScalarProperty Name="IntellIDE_Folio" ColumnName="IntellIDE_Folio" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="IntellIDE_PRUEBA01">
+      <EntityTypeMapping TypeName="CNSFFORMULARIOS2Model.IntellIDE_PRUEBA01">
+        <MappingFragment StoreEntitySet="IntellIDE_PRUEBA01">
+          <ScalarProperty Name="ContentTypeId" ColumnName="ContentTypeId" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="C_ModerationComments" ColumnName="_ModerationComments" />
+          <ScalarProperty Name="File_x0020_Type" ColumnName="File_x0020_Type" />
+          <ScalarProperty Name="IntellideUsuario" ColumnName="IntellideUsuario" />
+          <ScalarProperty Name="f_Nombre" ColumnName="f_Nombre" />
+          <ScalarProperty Name="f_Apellido" ColumnName="f_Apellido" />
+          <ScalarProperty Name="f_Materno" ColumnName="f_Materno" />
+          <ScalarProperty Name="f_Email" ColumnName="f_Email" />
+          <ScalarProperty Name="f_RFC" ColumnName="f_RFC" />
+          <ScalarProperty Name="f_CURP" ColumnName="f_CURP" />
+          <ScalarProperty Name="f_FechaNacimiento" ColumnName="f_FechaNacimiento" />
+          <ScalarProperty Name="f_LugarNacimiento" ColumnName="f_LugarNacimiento" />
+          <ScalarProperty Name="f_Nacionalidad" ColumnName="f_Nacionalidad" />
+          <ScalarProperty Name="f_Escolaridad" ColumnName="f_Escolaridad" />
+          <ScalarProperty Name="f_TelefonoParticular" ColumnName="f_TelefonoParticular" />
+          <ScalarProperty Name="f_TelefonoOficina" ColumnName="f_TelefonoOficina" />
+          <ScalarProperty Name="f_TelefonoCelular" ColumnName="f_TelefonoCelular" />
+          <ScalarProperty Name="f_Calle" ColumnName="f_Calle" />
+          <ScalarProperty Name="f_NoExterior" ColumnName="f_NoExterior" />
+          <ScalarProperty Name="f_NoInterior" ColumnName="f_NoInterior" />
+          <ScalarProperty Name="f_CP" ColumnName="f_CP" />
+          <ScalarProperty Name="f_Colonia" ColumnName="f_Colonia" />
+          <ScalarProperty Name="f_Poblacion" ColumnName="f_Poblacion" />
+          <ScalarProperty Name="f_Estado" ColumnName="f_Estado" />
+          <ScalarProperty Name="f_Calle2" ColumnName="f_Calle2" />
+          <ScalarProperty Name="f_NoExterior2" ColumnName="f_NoExterior2" />
+          <ScalarProperty Name="f_NoInterior2" ColumnName="f_NoInterior2" />
+          <ScalarProperty Name="f_CP2" ColumnName="f_CP2" />
+          <ScalarProperty Name="f_Colonia2" ColumnName="f_Colonia2" />
+          <ScalarProperty Name="f_Poblacion2" ColumnName="f_Poblacion2" />
+          <ScalarProperty Name="f_Estado2" ColumnName="f_Estado2" />
+          <ScalarProperty Name="f_Instituciones" ColumnName="f_Instituciones" />
+          <ScalarProperty Name="Author" ColumnName="Author" />
+          <ScalarProperty Name="Editor" ColumnName="Editor" />
+          <ScalarProperty Name="Modified" ColumnName="Modified" />
+          <ScalarProperty Name="Created" ColumnName="Created" />
+          <ScalarProperty Name="campo1" ColumnName="campo1" />
+          <ScalarProperty Name="campo2" ColumnName="campo2" />
+          <ScalarProperty Name="campo3" ColumnName="campo3" />
+          <ScalarProperty Name="campo4" ColumnName="campo4" />
+          <ScalarProperty Name="campo5" ColumnName="campo5" />
+          <ScalarProperty Name="campo6" ColumnName="campo6" />
+          <ScalarProperty Name="campo7" ColumnName="campo7" />
+          <ScalarProperty Name="campo8" ColumnName="campo8" />
+          <ScalarProperty Name="campo9" ColumnName="campo9" />
+          <ScalarProperty Name="campo10" ColumnName="campo10" />
+          <ScalarProperty Name="campo11" ColumnName="campo11" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ContentType" ColumnName="ContentType" />
+          <ScalarProperty Name="C_HasCopyDestinations" ColumnName="_HasCopyDestinations" />
+          <ScalarProperty Name="C_CopySource" ColumnName="_CopySource" />
+          <ScalarProperty Name="owshiddenversion" ColumnName="owshiddenversion" />
+          <ScalarProperty Name="WorkflowVersion" ColumnName="WorkflowVersion" />
+          <ScalarProperty Name="C_UIVersion" ColumnName="_UIVersion" />
+          <ScalarProperty Name="C_UIVersionString" ColumnName="_UIVersionString" />
+          <ScalarProperty Name="Attachments" ColumnName="Attachments" />
+          <ScalarProperty Name="C_ModerationStatus" ColumnName="_ModerationStatus" />
+          <ScalarProperty Name="Edit" ColumnName="Edit" />
+          <ScalarProperty Name="LinkTitleNoMenu" ColumnName="LinkTitleNoMenu" />
+          <ScalarProperty Name="LinkTitle" ColumnName="LinkTitle" />
+          <ScalarProperty Name="LinkTitle2" ColumnName="LinkTitle2" />
+          <ScalarProperty Name="SelectTitle" ColumnName="SelectTitle" />
+          <ScalarProperty Name="InstanceID" ColumnName="InstanceID" />
+          <ScalarProperty Name="Order" ColumnName="Order" />
+          <ScalarProperty Name="GUID" ColumnName="GUID" />
+          <ScalarProperty Name="WorkflowInstanceID" ColumnName="WorkflowInstanceID" />
+          <ScalarProperty Name="FileRef" ColumnName="FileRef" />
+          <ScalarProperty Name="FileDirRef" ColumnName="FileDirRef" />
+          <ScalarProperty Name="Last_x0020_Modified" ColumnName="Last_x0020_Modified" />
+          <ScalarProperty Name="Created_x0020_Date" ColumnName="Created_x0020_Date" />
+          <ScalarProperty Name="FSObjType" ColumnName="FSObjType" />
+          <ScalarProperty Name="SortBehavior" ColumnName="SortBehavior" />
+          <ScalarProperty Name="PermMask" ColumnName="PermMask" />
+          <ScalarProperty Name="FileLeafRef" ColumnName="FileLeafRef" />
+          <ScalarProperty Name="UniqueId" ColumnName="UniqueId" />
+          <ScalarProperty Name="SyncClientId" ColumnName="SyncClientId" />
+          <ScalarProperty Name="ProgId" ColumnName="ProgId" />
+          <ScalarProperty Name="ScopeId" ColumnName="ScopeId" />
+          <ScalarProperty Name="HTML_x0020_File_x0020_Type" ColumnName="HTML_x0020_File_x0020_Type" />
+          <ScalarProperty Name="C_EditMenuTableStart" ColumnName="_EditMenuTableStart" />
+          <ScalarProperty Name="C_EditMenuTableStart2" ColumnName="_EditMenuTableStart2" />
+          <ScalarProperty Name="C_EditMenuTableEnd" ColumnName="_EditMenuTableEnd" />
+          <ScalarProperty Name="LinkFilenameNoMenu" ColumnName="LinkFilenameNoMenu" />
+          <ScalarProperty Name="LinkFilename" ColumnName="LinkFilename" />
+          <ScalarProperty Name="LinkFilename2" ColumnName="LinkFilename2" />
+          <ScalarProperty Name="DocIcon" ColumnName="DocIcon" />
+          <ScalarProperty Name="ServerUrl" ColumnName="ServerUrl" />
+          <ScalarProperty Name="EncodedAbsUrl" ColumnName="EncodedAbsUrl" />
+          <ScalarProperty Name="BaseName" ColumnName="BaseName" />
+          <ScalarProperty Name="MetaInfo" ColumnName="MetaInfo" />
+          <ScalarProperty Name="C_Level" ColumnName="_Level" />
+          <ScalarProperty Name="C_IsCurrentVersion" ColumnName="_IsCurrentVersion" />
+          <ScalarProperty Name="ItemChildCount" ColumnName="ItemChildCount" />
+          <ScalarProperty Name="FolderChildCount" ColumnName="FolderChildCount" />
+          <ScalarProperty Name="IntellIDE_GUID" ColumnName="IntellIDE_GUID" />
+          <ScalarProperty Name="IntellIDE_Owner" ColumnName="IntellIDE_Owner" />
+          <ScalarProperty Name="IntellIDE_Status" ColumnName="IntellIDE_Status" />
+          <ScalarProperty Name="IntellIDE_CreatedDate" ColumnName="IntellIDE_CreatedDate" />
+          <ScalarProperty Name="IntellIDE_ModifyDate" ColumnName="IntellIDE_ModifyDate" />
+          <ScalarProperty Name="IntellIDE_PK_PRUEBA01" ColumnName="IntellIDE_PK_PRUEBA01" />
+          <ScalarProperty Name="IntellIDE_Folio" ColumnName="IntellIDE_Folio" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="IntellIDE_PRUEBA02">
+      <EntityTypeMapping TypeName="CNSFFORMULARIOS2Model.IntellIDE_PRUEBA02">
+        <MappingFragment StoreEntitySet="IntellIDE_PRUEBA02">
+          <ScalarProperty Name="ContentTypeId" ColumnName="ContentTypeId" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="C_ModerationComments" ColumnName="_ModerationComments" />
+          <ScalarProperty Name="File_x0020_Type" ColumnName="File_x0020_Type" />
+          <ScalarProperty Name="IntellideUsuario" ColumnName="IntellideUsuario" />
+          <ScalarProperty Name="f_Nombre" ColumnName="f_Nombre" />
+          <ScalarProperty Name="f_Apellido" ColumnName="f_Apellido" />
+          <ScalarProperty Name="f_Materno" ColumnName="f_Materno" />
+          <ScalarProperty Name="f_Email" ColumnName="f_Email" />
+          <ScalarProperty Name="f_RFC" ColumnName="f_RFC" />
+          <ScalarProperty Name="f_CURP" ColumnName="f_CURP" />
+          <ScalarProperty Name="f_FechaNacimiento" ColumnName="f_FechaNacimiento" />
+          <ScalarProperty Name="f_LugarNacimiento" ColumnName="f_LugarNacimiento" />
+          <ScalarProperty Name="f_Nacionalidad" ColumnName="f_Nacionalidad" />
+          <ScalarProperty Name="f_Escolaridad" ColumnName="f_Escolaridad" />
+          <ScalarProperty Name="f_TelefonoParticular" ColumnName="f_TelefonoParticular" />
+          <ScalarProperty Name="f_TelefonoOficina" ColumnName="f_TelefonoOficina" />
+          <ScalarProperty Name="f_TelefonoCelular" ColumnName="f_TelefonoCelular" />
+          <ScalarProperty Name="f_Calle" ColumnName="f_Calle" />
+          <ScalarProperty Name="f_NoExterior" ColumnName="f_NoExterior" />
+          <ScalarProperty Name="f_NoInterior" ColumnName="f_NoInterior" />
+          <ScalarProperty Name="f_CP" ColumnName="f_CP" />
+          <ScalarProperty Name="f_Colonia" ColumnName="f_Colonia" />
+          <ScalarProperty Name="f_Poblacion" ColumnName="f_Poblacion" />
+          <ScalarProperty Name="f_Estado" ColumnName="f_Estado" />
+          <ScalarProperty Name="f_Calle2" ColumnName="f_Calle2" />
+          <ScalarProperty Name="f_NoExterior2" ColumnName="f_NoExterior2" />
+          <ScalarProperty Name="f_NoInterior2" ColumnName="f_NoInterior2" />
+          <ScalarProperty Name="f_CP2" ColumnName="f_CP2" />
+          <ScalarProperty Name="f_Colonia2" ColumnName="f_Colonia2" />
+          <ScalarProperty Name="f_Poblacion2" ColumnName="f_Poblacion2" />
+          <ScalarProperty Name="f_Estado2" ColumnName="f_Estado2" />
+          <ScalarProperty Name="f_Instituciones" ColumnName="f_Instituciones" />
+          <ScalarProperty Name="Author" ColumnName="Author" />
+          <ScalarProperty Name="Editor" ColumnName="Editor" />
+          <ScalarProperty Name="Modified" ColumnName="Modified" />
+          <ScalarProperty Name="Created" ColumnName="Created" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ContentType" ColumnName="ContentType" />
+          <ScalarProperty Name="C_HasCopyDestinations" ColumnName="_HasCopyDestinations" />
+          <ScalarProperty Name="C_CopySource" ColumnName="_CopySource" />
+          <ScalarProperty Name="owshiddenversion" ColumnName="owshiddenversion" />
+          <ScalarProperty Name="WorkflowVersion" ColumnName="WorkflowVersion" />
+          <ScalarProperty Name="C_UIVersion" ColumnName="_UIVersion" />
+          <ScalarProperty Name="C_UIVersionString" ColumnName="_UIVersionString" />
+          <ScalarProperty Name="Attachments" ColumnName="Attachments" />
+          <ScalarProperty Name="C_ModerationStatus" ColumnName="_ModerationStatus" />
+          <ScalarProperty Name="Edit" ColumnName="Edit" />
+          <ScalarProperty Name="LinkTitleNoMenu" ColumnName="LinkTitleNoMenu" />
+          <ScalarProperty Name="LinkTitle" ColumnName="LinkTitle" />
+          <ScalarProperty Name="LinkTitle2" ColumnName="LinkTitle2" />
+          <ScalarProperty Name="SelectTitle" ColumnName="SelectTitle" />
+          <ScalarProperty Name="InstanceID" ColumnName="InstanceID" />
+          <ScalarProperty Name="Order" ColumnName="Order" />
+          <ScalarProperty Name="GUID" ColumnName="GUID" />
+          <ScalarProperty Name="WorkflowInstanceID" ColumnName="WorkflowInstanceID" />
+          <ScalarProperty Name="FileRef" ColumnName="FileRef" />
+          <ScalarProperty Name="FileDirRef" ColumnName="FileDirRef" />
+          <ScalarProperty Name="Last_x0020_Modified" ColumnName="Last_x0020_Modified" />
+          <ScalarProperty Name="Created_x0020_Date" ColumnName="Created_x0020_Date" />
+          <ScalarProperty Name="FSObjType" ColumnName="FSObjType" />
+          <ScalarProperty Name="SortBehavior" ColumnName="SortBehavior" />
+          <ScalarProperty Name="PermMask" ColumnName="PermMask" />
+          <ScalarProperty Name="FileLeafRef" ColumnName="FileLeafRef" />
+          <ScalarProperty Name="UniqueId" ColumnName="UniqueId" />
+          <ScalarProperty Name="SyncClientId" ColumnName="SyncClientId" />
+          <ScalarProperty Name="ProgId" ColumnName="ProgId" />
+          <ScalarProperty Name="ScopeId" ColumnName="ScopeId" />
+          <ScalarProperty Name="HTML_x0020_File_x0020_Type" ColumnName="HTML_x0020_File_x0020_Type" />
+          <ScalarProperty Name="C_EditMenuTableStart" ColumnName="_EditMenuTableStart" />
+          <ScalarProperty Name="C_EditMenuTableStart2" ColumnName="_EditMenuTableStart2" />
+          <ScalarProperty Name="C_EditMenuTableEnd" ColumnName="_EditMenuTableEnd" />
+          <ScalarProperty Name="LinkFilenameNoMenu" ColumnName="LinkFilenameNoMenu" />
+          <ScalarProperty Name="LinkFilename" ColumnName="LinkFilename" />
+          <ScalarProperty Name="LinkFilename2" ColumnName="LinkFilename2" />
+          <ScalarProperty Name="DocIcon" ColumnName="DocIcon" />
+          <ScalarProperty Name="ServerUrl" ColumnName="ServerUrl" />
+          <ScalarProperty Name="EncodedAbsUrl" ColumnName="EncodedAbsUrl" />
+          <ScalarProperty Name="BaseName" ColumnName="BaseName" />
+          <ScalarProperty Name="MetaInfo" ColumnName="MetaInfo" />
+          <ScalarProperty Name="C_Level" ColumnName="_Level" />
+          <ScalarProperty Name="C_IsCurrentVersion" ColumnName="_IsCurrentVersion" />
+          <ScalarProperty Name="ItemChildCount" ColumnName="ItemChildCount" />
+          <ScalarProperty Name="FolderChildCount" ColumnName="FolderChildCount" />
+          <ScalarProperty Name="IntellIDE_GUID" ColumnName="IntellIDE_GUID" />
+          <ScalarProperty Name="IntellIDE_Owner" ColumnName="IntellIDE_Owner" />
+          <ScalarProperty Name="IntellIDE_Status" ColumnName="IntellIDE_Status" />
+          <ScalarProperty Name="IntellIDE_CreatedDate" ColumnName="IntellIDE_CreatedDate" />
+          <ScalarProperty Name="IntellIDE_ModifyDate" ColumnName="IntellIDE_ModifyDate" />
+          <ScalarProperty Name="IntellIDE_PK_PRUEBA02" ColumnName="IntellIDE_PK_PRUEBA02" />
+          <ScalarProperty Name="IntellIDE_Folio" ColumnName="IntellIDE_Folio" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="IntellIDE_Refrendo_de_Agente_de_Seguros">
+      <EntityTypeMapping TypeName="CNSFFORMULARIOS2Model.IntellIDE_Refrendo_de_Agente_de_Seguros">
+        <MappingFragment StoreEntitySet="IntellIDE_Refrendo de Agente de Seguros">
+          <ScalarProperty Name="ContentTypeId" ColumnName="ContentTypeId" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="C_ModerationComments" ColumnName="_ModerationComments" />
+          <ScalarProperty Name="File_x0020_Type" ColumnName="File_x0020_Type" />
+          <ScalarProperty Name="IntellideUsuario" ColumnName="IntellideUsuario" />
+          <ScalarProperty Name="f_Nombre" ColumnName="f_Nombre" />
+          <ScalarProperty Name="f_Apellido" ColumnName="f_Apellido" />
+          <ScalarProperty Name="f_Materno" ColumnName="f_Materno" />
+          <ScalarProperty Name="f_Email" ColumnName="f_Email" />
+          <ScalarProperty Name="f_RFC" ColumnName="f_RFC" />
+          <ScalarProperty Name="f_CURP" ColumnName="f_CURP" />
+          <ScalarProperty Name="f_FechaNacimiento" ColumnName="f_FechaNacimiento" />
+          <ScalarProperty Name="f_LugarNacimiento" ColumnName="f_LugarNacimiento" />
+          <ScalarProperty Name="f_Nacionalidad" ColumnName="f_Nacionalidad" />
+          <ScalarProperty Name="f_Escolaridad" ColumnName="f_Escolaridad" />
+          <ScalarProperty Name="f_TelefonoParticular" ColumnName="f_TelefonoParticular" />
+          <ScalarProperty Name="f_TelefonoOficina" ColumnName="f_TelefonoOficina" />
+          <ScalarProperty Name="f_TelefonoCelular" ColumnName="f_TelefonoCelular" />
+          <ScalarProperty Name="f_Calle" ColumnName="f_Calle" />
+          <ScalarProperty Name="f_NoExterior" ColumnName="f_NoExterior" />
+          <ScalarProperty Name="f_NoInterior" ColumnName="f_NoInterior" />
+          <ScalarProperty Name="f_CP" ColumnName="f_CP" />
+          <ScalarProperty Name="f_Colonia" ColumnName="f_Colonia" />
+          <ScalarProperty Name="f_Poblacion" ColumnName="f_Poblacion" />
+          <ScalarProperty Name="f_Estado" ColumnName="f_Estado" />
+          <ScalarProperty Name="f_Calle2" ColumnName="f_Calle2" />
+          <ScalarProperty Name="f_NoExterior2" ColumnName="f_NoExterior2" />
+          <ScalarProperty Name="f_NoInterior2" ColumnName="f_NoInterior2" />
+          <ScalarProperty Name="f_CP2" ColumnName="f_CP2" />
+          <ScalarProperty Name="f_Colonia2" ColumnName="f_Colonia2" />
+          <ScalarProperty Name="f_Poblacion2" ColumnName="f_Poblacion2" />
+          <ScalarProperty Name="f_Estado2" ColumnName="f_Estado2" />
+          <ScalarProperty Name="f_Instituciones" ColumnName="f_Instituciones" />
+          <ScalarProperty Name="Author" ColumnName="Author" />
+          <ScalarProperty Name="Editor" ColumnName="Editor" />
+          <ScalarProperty Name="Modified" ColumnName="Modified" />
+          <ScalarProperty Name="Created" ColumnName="Created" />
+          <ScalarProperty Name="Cedula" ColumnName="Cedula" />
+          <ScalarProperty Name="campo2" ColumnName="campo2" />
+          <ScalarProperty Name="campo3" ColumnName="campo3" />
+          <ScalarProperty Name="campo4" ColumnName="campo4" />
+          <ScalarProperty Name="campo5" ColumnName="campo5" />
+          <ScalarProperty Name="campo6" ColumnName="campo6" />
+          <ScalarProperty Name="campo7" ColumnName="campo7" />
+          <ScalarProperty Name="campo8" ColumnName="campo8" />
+          <ScalarProperty Name="campo9" ColumnName="campo9" />
+          <ScalarProperty Name="campo10" ColumnName="campo10" />
+          <ScalarProperty Name="campo11" ColumnName="campo11" />
+          <ScalarProperty Name="campo12" ColumnName="campo12" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ContentType" ColumnName="ContentType" />
+          <ScalarProperty Name="C_HasCopyDestinations" ColumnName="_HasCopyDestinations" />
+          <ScalarProperty Name="C_CopySource" ColumnName="_CopySource" />
+          <ScalarProperty Name="owshiddenversion" ColumnName="owshiddenversion" />
+          <ScalarProperty Name="WorkflowVersion" ColumnName="WorkflowVersion" />
+          <ScalarProperty Name="C_UIVersion" ColumnName="_UIVersion" />
+          <ScalarProperty Name="C_UIVersionString" ColumnName="_UIVersionString" />
+          <ScalarProperty Name="Attachments" ColumnName="Attachments" />
+          <ScalarProperty Name="C_ModerationStatus" ColumnName="_ModerationStatus" />
+          <ScalarProperty Name="Edit" ColumnName="Edit" />
+          <ScalarProperty Name="LinkTitleNoMenu" ColumnName="LinkTitleNoMenu" />
+          <ScalarProperty Name="LinkTitle" ColumnName="LinkTitle" />
+          <ScalarProperty Name="LinkTitle2" ColumnName="LinkTitle2" />
+          <ScalarProperty Name="SelectTitle" ColumnName="SelectTitle" />
+          <ScalarProperty Name="InstanceID" ColumnName="InstanceID" />
+          <ScalarProperty Name="Order" ColumnName="Order" />
+          <ScalarProperty Name="GUID" ColumnName="GUID" />
+          <ScalarProperty Name="WorkflowInstanceID" ColumnName="WorkflowInstanceID" />
+          <ScalarProperty Name="FileRef" ColumnName="FileRef" />
+          <ScalarProperty Name="FileDirRef" ColumnName="FileDirRef" />
+          <ScalarProperty Name="Last_x0020_Modified" ColumnName="Last_x0020_Modified" />
+          <ScalarProperty Name="Created_x0020_Date" ColumnName="Created_x0020_Date" />
+          <ScalarProperty Name="FSObjType" ColumnName="FSObjType" />
+          <ScalarProperty Name="SortBehavior" ColumnName="SortBehavior" />
+          <ScalarProperty Name="PermMask" ColumnName="PermMask" />
+          <ScalarProperty Name="FileLeafRef" ColumnName="FileLeafRef" />
+          <ScalarProperty Name="UniqueId" ColumnName="UniqueId" />
+          <ScalarProperty Name="SyncClientId" ColumnName="SyncClientId" />
+          <ScalarProperty Name="ProgId" ColumnName="ProgId" />
+          <ScalarProperty Name="ScopeId" ColumnName="ScopeId" />
+          <ScalarProperty Name="HTML_x0020_File_x0020_Type" ColumnName="HTML_x0020_File_x0020_Type" />
+          <ScalarProperty Name="C_EditMenuTableStart" ColumnName="_EditMenuTableStart" />
+          <ScalarProperty Name="C_EditMenuTableStart2" ColumnName="_EditMenuTableStart2" />
+          <ScalarProperty Name="C_EditMenuTableEnd" ColumnName="_EditMenuTableEnd" />
+          <ScalarProperty Name="LinkFilenameNoMenu" ColumnName="LinkFilenameNoMenu" />
+          <ScalarProperty Name="LinkFilename" ColumnName="LinkFilename" />
+          <ScalarProperty Name="LinkFilename2" ColumnName="LinkFilename2" />
+          <ScalarProperty Name="DocIcon" ColumnName="DocIcon" />
+          <ScalarProperty Name="ServerUrl" ColumnName="ServerUrl" />
+          <ScalarProperty Name="EncodedAbsUrl" ColumnName="EncodedAbsUrl" />
+          <ScalarProperty Name="BaseName" ColumnName="BaseName" />
+          <ScalarProperty Name="MetaInfo" ColumnName="MetaInfo" />
+          <ScalarProperty Name="C_Level" ColumnName="_Level" />
+          <ScalarProperty Name="C_IsCurrentVersion" ColumnName="_IsCurrentVersion" />
+          <ScalarProperty Name="ItemChildCount" ColumnName="ItemChildCount" />
+          <ScalarProperty Name="FolderChildCount" ColumnName="FolderChildCount" />
+          <ScalarProperty Name="IntellIDE_GUID" ColumnName="IntellIDE_GUID" />
+          <ScalarProperty Name="IntellIDE_Owner" ColumnName="IntellIDE_Owner" />
+          <ScalarProperty Name="IntellIDE_Status" ColumnName="IntellIDE_Status" />
+          <ScalarProperty Name="IntellIDE_CreatedDate" ColumnName="IntellIDE_CreatedDate" />
+          <ScalarProperty Name="IntellIDE_ModifyDate" ColumnName="IntellIDE_ModifyDate" />
+          <ScalarProperty Name="IntellIDE_PK_Refrendo_de_Agente_de_Seguros" ColumnName="IntellIDE_PK_Refrendo de Agente de Seguros" />
+          <ScalarProperty Name="IntellIDE_Folio" ColumnName="IntellIDE_Folio" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="IntellIDE_Tramite_de_prueba">
+      <EntityTypeMapping TypeName="CNSFFORMULARIOS2Model.IntellIDE_Tramite_de_prueba">
+        <MappingFragment StoreEntitySet="IntellIDE_Tramite de prueba">
+          <ScalarProperty Name="ContentTypeId" ColumnName="ContentTypeId" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="C_ModerationComments" ColumnName="_ModerationComments" />
+          <ScalarProperty Name="File_x0020_Type" ColumnName="File_x0020_Type" />
+          <ScalarProperty Name="IntellideUsuario" ColumnName="IntellideUsuario" />
+          <ScalarProperty Name="f_Nombre" ColumnName="f_Nombre" />
+          <ScalarProperty Name="f_Apellido" ColumnName="f_Apellido" />
+          <ScalarProperty Name="f_Materno" ColumnName="f_Materno" />
+          <ScalarProperty Name="f_Email" ColumnName="f_Email" />
+          <ScalarProperty Name="f_RFC" ColumnName="f_RFC" />
+          <ScalarProperty Name="f_CURP" ColumnName="f_CURP" />
+          <ScalarProperty Name="f_FechaNacimiento" ColumnName="f_FechaNacimiento" />
+          <ScalarProperty Name="f_LugarNacimiento" ColumnName="f_LugarNacimiento" />
+          <ScalarProperty Name="f_Nacionalidad" ColumnName="f_Nacionalidad" />
+          <ScalarProperty Name="f_Escolaridad" ColumnName="f_Escolaridad" />
+          <ScalarProperty Name="f_TelefonoParticular" ColumnName="f_TelefonoParticular" />
+          <ScalarProperty Name="f_TelefonoOficina" ColumnName="f_TelefonoOficina" />
+          <ScalarProperty Name="f_TelefonoCelular" ColumnName="f_TelefonoCelular" />
+          <ScalarProperty Name="f_Calle" ColumnName="f_Calle" />
+          <ScalarProperty Name="f_NoExterior" ColumnName="f_NoExterior" />
+          <ScalarProperty Name="f_NoInterior" ColumnName="f_NoInterior" />
+          <ScalarProperty Name="f_CP" ColumnName="f_CP" />
+          <ScalarProperty Name="f_Colonia" ColumnName="f_Colonia" />
+          <ScalarProperty Name="f_Poblacion" ColumnName="f_Poblacion" />
+          <ScalarProperty Name="f_Estado" ColumnName="f_Estado" />
+          <ScalarProperty Name="f_Calle2" ColumnName="f_Calle2" />
+          <ScalarProperty Name="f_NoExterior2" ColumnName="f_NoExterior2" />
+          <ScalarProperty Name="f_NoInterior2" ColumnName="f_NoInterior2" />
+          <ScalarProperty Name="f_CP2" ColumnName="f_CP2" />
+          <ScalarProperty Name="f_Colonia2" ColumnName="f_Colonia2" />
+          <ScalarProperty Name="f_Poblacion2" ColumnName="f_Poblacion2" />
+          <ScalarProperty Name="f_Estado2" ColumnName="f_Estado2" />
+          <ScalarProperty Name="f_Instituciones" ColumnName="f_Instituciones" />
+          <ScalarProperty Name="Author" ColumnName="Author" />
+          <ScalarProperty Name="Editor" ColumnName="Editor" />
+          <ScalarProperty Name="Modified" ColumnName="Modified" />
+          <ScalarProperty Name="Created" ColumnName="Created" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ContentType" ColumnName="ContentType" />
+          <ScalarProperty Name="C_HasCopyDestinations" ColumnName="_HasCopyDestinations" />
+          <ScalarProperty Name="C_CopySource" ColumnName="_CopySource" />
+          <ScalarProperty Name="owshiddenversion" ColumnName="owshiddenversion" />
+          <ScalarProperty Name="WorkflowVersion" ColumnName="WorkflowVersion" />
+          <ScalarProperty Name="C_UIVersion" ColumnName="_UIVersion" />
+          <ScalarProperty Name="C_UIVersionString" ColumnName="_UIVersionString" />
+          <ScalarProperty Name="Attachments" ColumnName="Attachments" />
+          <ScalarProperty Name="C_ModerationStatus" ColumnName="_ModerationStatus" />
+          <ScalarProperty Name="Edit" ColumnName="Edit" />
+          <ScalarProperty Name="LinkTitleNoMenu" ColumnName="LinkTitleNoMenu" />
+          <ScalarProperty Name="LinkTitle" ColumnName="LinkTitle" />
+          <ScalarProperty Name="LinkTitle2" ColumnName="LinkTitle2" />
+          <ScalarProperty Name="SelectTitle" ColumnName="SelectTitle" />
+          <ScalarProperty Name="InstanceID" ColumnName="InstanceID" />
+          <ScalarProperty Name="Order" ColumnName="Order" />
+          <ScalarProperty Name="GUID" ColumnName="GUID" />
+          <ScalarProperty Name="WorkflowInstanceID" ColumnName="WorkflowInstanceID" />
+          <ScalarProperty Name="FileRef" ColumnName="FileRef" />
+          <ScalarProperty Name="FileDirRef" ColumnName="FileDirRef" />
+          <ScalarProperty Name="Last_x0020_Modified" ColumnName="Last_x0020_Modified" />
+          <ScalarProperty Name="Created_x0020_Date" ColumnName="Created_x0020_Date" />
+          <ScalarProperty Name="FSObjType" ColumnName="FSObjType" />
+          <ScalarProperty Name="SortBehavior" ColumnName="SortBehavior" />
+          <ScalarProperty Name="PermMask" ColumnName="PermMask" />
+          <ScalarProperty Name="FileLeafRef" ColumnName="FileLeafRef" />
+          <ScalarProperty Name="UniqueId" ColumnName="UniqueId" />
+          <ScalarProperty Name="SyncClientId" ColumnName="SyncClientId" />
+          <ScalarProperty Name="ProgId" ColumnName="ProgId" />
+          <ScalarProperty Name="ScopeId" ColumnName="ScopeId" />
+          <ScalarProperty Name="HTML_x0020_File_x0020_Type" ColumnName="HTML_x0020_File_x0020_Type" />
+          <ScalarProperty Name="C_EditMenuTableStart" ColumnName="_EditMenuTableStart" />
+          <ScalarProperty Name="C_EditMenuTableStart2" ColumnName="_EditMenuTableStart2" />
+          <ScalarProperty Name="C_EditMenuTableEnd" ColumnName="_EditMenuTableEnd" />
+          <ScalarProperty Name="LinkFilenameNoMenu" ColumnName="LinkFilenameNoMenu" />
+          <ScalarProperty Name="LinkFilename" ColumnName="LinkFilename" />
+          <ScalarProperty Name="LinkFilename2" ColumnName="LinkFilename2" />
+          <ScalarProperty Name="DocIcon" ColumnName="DocIcon" />
+          <ScalarProperty Name="ServerUrl" ColumnName="ServerUrl" />
+          <ScalarProperty Name="EncodedAbsUrl" ColumnName="EncodedAbsUrl" />
+          <ScalarProperty Name="BaseName" ColumnName="BaseName" />
+          <ScalarProperty Name="MetaInfo" ColumnName="MetaInfo" />
+          <ScalarProperty Name="C_Level" ColumnName="_Level" />
+          <ScalarProperty Name="C_IsCurrentVersion" ColumnName="_IsCurrentVersion" />
+          <ScalarProperty Name="ItemChildCount" ColumnName="ItemChildCount" />
+          <ScalarProperty Name="FolderChildCount" ColumnName="FolderChildCount" />
+          <ScalarProperty Name="IntellIDE_GUID" ColumnName="IntellIDE_GUID" />
+          <ScalarProperty Name="IntellIDE_Owner" ColumnName="IntellIDE_Owner" />
+          <ScalarProperty Name="IntellIDE_Status" ColumnName="IntellIDE_Status" />
+          <ScalarProperty Name="IntellIDE_CreatedDate" ColumnName="IntellIDE_CreatedDate" />
+          <ScalarProperty Name="IntellIDE_ModifyDate" ColumnName="IntellIDE_ModifyDate" />
+          <ScalarProperty Name="IntellIDE_PK_Tramite_de_prueba" ColumnName="IntellIDE_PK_Tramite de prueba" />
+          <ScalarProperty Name="IntellIDE_Folio" ColumnName="IntellIDE_Folio" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_ACTIVIDADES">
+      <EntityTypeMapping TypeName="CNSFFORMULARIOS2Model.TB_ACTIVIDADES">
+        <MappingFragment StoreEntitySet="TB_ACTIVIDADES">
+          <ScalarProperty Name="PK_ACTIVIDAD" ColumnName="PK_ACTIVIDAD" />
+          <ScalarProperty Name="FL_DESCRIPCION" ColumnName="FL_DESCRIPCION" />
+          <ScalarProperty Name="FL_NAME" ColumnName="FL_NAME" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_CLASIFICACION">
+      <EntityTypeMapping TypeName="CNSFFORMULARIOS2Model.TB_CLASIFICACION">
+        <MappingFragment StoreEntitySet="TB_CLASIFICACION">
+          <ScalarProperty Name="PK_CLASIFICACION" ColumnName="PK_CLASIFICACION" />
+          <ScalarProperty Name="FL_NAME" ColumnName="FL_NAME" />
+          <ScalarProperty Name="FL_GUID" ColumnName="FL_GUID" />
+          <ScalarProperty Name="FL_ORDEN" ColumnName="FL_ORDEN" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_COMENTARIOS">
+      <EntityTypeMapping TypeName="CNSFFORMULARIOS2Model.TB_COMENTARIOS">
+        <MappingFragment StoreEntitySet="TB_COMENTARIOS">
+          <ScalarProperty Name="PK_COMENTARIO" ColumnName="PK_COMENTARIO" />
+          <ScalarProperty Name="FL_COMENTARIO" ColumnName="FL_COMENTARIO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_DIRECCIONES">
+      <EntityTypeMapping TypeName="CNSFFORMULARIOS2Model.TB_DIRECCIONES">
+        <MappingFragment StoreEntitySet="TB_DIRECCIONES">
+          <ScalarProperty Name="PK_DIRECCION" ColumnName="PK_DIRECCION" />
+          <ScalarProperty Name="FL_TIPO" ColumnName="FL_TIPO" />
+          <ScalarProperty Name="FL_CALLE" ColumnName="FL_CALLE" />
+          <ScalarProperty Name="FL_NUMERO_I" ColumnName="FL_NUMERO_I" />
+          <ScalarProperty Name="FL_NUMERO_E" ColumnName="FL_NUMERO_E" />
+          <ScalarProperty Name="FL_COLONIA" ColumnName="FL_COLONIA" />
+          <ScalarProperty Name="FL_POBLACION" ColumnName="FL_POBLACION" />
+          <ScalarProperty Name="FL_ESTADO" ColumnName="FL_ESTADO" />
+          <ScalarProperty Name="FL_CP" ColumnName="FL_CP" />
+          <ScalarProperty Name="FL_TELEFONO" ColumnName="FL_TELEFONO" />
+          <ScalarProperty Name="FK_USER" ColumnName="FK_USER" />
+          <ScalarProperty Name="FL_ACTIVO" ColumnName="FL_ACTIVO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_DOCUMENTOS">
+      <EntityTypeMapping TypeName="CNSFFORMULARIOS2Model.TB_DOCUMENTOS">
+        <MappingFragment StoreEntitySet="TB_DOCUMENTOS">
+          <ScalarProperty Name="PK_DOCUMENTO" ColumnName="PK_DOCUMENTO" />
+          <ScalarProperty Name="FL_CIF" ColumnName="FL_CIF" />
+          <ScalarProperty Name="FL_MYME_CIF" ColumnName="FL_MYME_CIF" />
+          <ScalarProperty Name="FL_RFC" ColumnName="FL_RFC" />
+          <ScalarProperty Name="FL_MYME_RFC" ColumnName="FL_MYME_RFC" />
+          <ScalarProperty Name="FL_ACTA_N" ColumnName="FL_ACTA_N" />
+          <ScalarProperty Name="FL_MYME_ACTA" ColumnName="FL_MYME_ACTA" />
+          <ScalarProperty Name="FL_FOTO_IR" ColumnName="FL_FOTO_IR" />
+          <ScalarProperty Name="FL_MYME_IR" ColumnName="FL_MYME_IR" />
+          <ScalarProperty Name="FL_COMPROBANTE_D" ColumnName="FL_COMPROBANTE_D" />
+          <ScalarProperty Name="FL_MYME_CD" ColumnName="FL_MYME_CD" />
+          <ScalarProperty Name="FL_CERTIFICADO_E" ColumnName="FL_CERTIFICADO_E" />
+          <ScalarProperty Name="FL_MYME_C_E" ColumnName="FL_MYME_C_E" />
+          <ScalarProperty Name="FL_CURP" ColumnName="FL_CURP" />
+          <ScalarProperty Name="FL_MYME_CURP" ColumnName="FL_MYME_CURP" />
+          <ScalarProperty Name="FL_IDENTIFICACION_O" ColumnName="FL_IDENTIFICACION_O" />
+          <ScalarProperty Name="FL_MYME_I_O" ColumnName="FL_MYME_I_O" />
+          <ScalarProperty Name="FK_USER" ColumnName="FK_USER" />
+          <ScalarProperty Name="FL_ACTIVO" ColumnName="FL_ACTIVO" />
+          <ScalarProperty Name="FK_TRAMITE" ColumnName="FK_TRAMITE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_DOCUMENTOS_TRAMITES">
+      <EntityTypeMapping TypeName="CNSFFORMULARIOS2Model.TB_DOCUMENTOS_TRAMITES">
+        <MappingFragment StoreEntitySet="TB_DOCUMENTOS_TRAMITES">
+          <ScalarProperty Name="PK_OFICINA_TRAMITE" ColumnName="PK_OFICINA_TRAMITE" />
+          <ScalarProperty Name="FK_TRAMITE" ColumnName="FK_TRAMITE" />
+          <ScalarProperty Name="FK_DOCUMENTO" ColumnName="FK_DOCUMENTO" />
+          <ScalarProperty Name="FL_ACTIVO" ColumnName="FL_ACTIVO" />
+          <ScalarProperty Name="FL_OBLIGATORIO" ColumnName="FL_OBLIGATORIO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_INSTITUCIONES">
+      <EntityTypeMapping TypeName="CNSFFORMULARIOS2Model.TB_INSTITUCIONES">
+        <MappingFragment StoreEntitySet="TB_INSTITUCIONES">
+          <ScalarProperty Name="PK_INSTITUCION" ColumnName="PK_INSTITUCION" />
+          <ScalarProperty Name="FL_NAME" ColumnName="FL_NAME" />
+          <ScalarProperty Name="FL_SECTOR" ColumnName="FL_SECTOR" />
+          <ScalarProperty Name="FL_ACTIVO" ColumnName="FL_ACTIVO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_LOG">
+      <EntityTypeMapping TypeName="CNSFFORMULARIOS2Model.TB_LOG">
+        <MappingFragment StoreEntitySet="TB_LOG">
+          <ScalarProperty Name="PK_LOG" ColumnName="PK_LOG" />
+          <ScalarProperty Name="FL_ACTIVIDAD" ColumnName="FL_ACTIVIDAD" />
+          <ScalarProperty Name="FK_USER" ColumnName="FK_USER" />
+          <ScalarProperty Name="FL_TIPO" ColumnName="FL_TIPO" />
+          <ScalarProperty Name="FL_FECHA" ColumnName="FL_FECHA" />
+          <ScalarProperty Name="FK_ACTIVIDAD" ColumnName="FK_ACTIVIDAD" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_MISDOCUMENTOS">
+      <EntityTypeMapping TypeName="CNSFFORMULARIOS2Model.TB_MISDOCUMENTOS">
+        <MappingFragment StoreEntitySet="TB_MISDOCUMENTOS">
+          <ScalarProperty Name="PK_MISDOCUMENTOS" ColumnName="PK_MISDOCUMENTOS" />
+          <ScalarProperty Name="FK_USER" ColumnName="FK_USER" />
+          <ScalarProperty Name="FK_TIPO_DOCUMENTO" ColumnName="FK_TIPO_DOCUMENTO" />
+          <ScalarProperty Name="FL_ARCHIVO" ColumnName="FL_ARCHIVO" />
+          <ScalarProperty Name="FL_MIME" ColumnName="FL_MIME" />
+          <ScalarProperty Name="FK_TRAMITE" ColumnName="FK_TRAMITE" />
+          <ScalarProperty Name="FL_SOLICITUD" ColumnName="FL_SOLICITUD" />
+          <ScalarProperty Name="FL_ACTIVO" ColumnName="FL_ACTIVO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_OFICINAS">
+      <EntityTypeMapping TypeName="CNSFFORMULARIOS2Model.TB_OFICINAS">
+        <MappingFragment StoreEntitySet="TB_OFICINAS">
+          <ScalarProperty Name="PK_OFICINA" ColumnName="PK_OFICINA" />
+          <ScalarProperty Name="FL_NAME" ColumnName="FL_NAME" />
+          <ScalarProperty Name="FL_DIRECCION" ColumnName="FL_DIRECCION" />
+          <ScalarProperty Name="FL_EMAIL" ColumnName="FL_EMAIL" />
+          <ScalarProperty Name="FL_TELEFONO" ColumnName="FL_TELEFONO" />
+          <ScalarProperty Name="FL_HORA_MI" ColumnName="FL_HORA_MI" />
+          <ScalarProperty Name="FL_HORA_MF" ColumnName="FL_HORA_MF" />
+          <ScalarProperty Name="FL_HORA_VI" ColumnName="FL_HORA_VI" />
+          <ScalarProperty Name="FL_HORA_VF" ColumnName="FL_HORA_VF" />
+          <ScalarProperty Name="FL_ESTATUS" ColumnName="FL_ESTATUS" />
+          <ScalarProperty Name="FL_DIAS_INHABILES" ColumnName="FL_DIAS_INHABILES" />
+          <ScalarProperty Name="FL_GUID" ColumnName="FL_GUID" />
+          <ScalarProperty Name="FL_URL" ColumnName="FL_URL" />
+          <ScalarProperty Name="FL_ZONA" ColumnName="FL_ZONA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_OFICINAS_TB_TRAMITES">
+      <EntityTypeMapping TypeName="CNSFFORMULARIOS2Model.TB_OFICINAS_TB_TRAMITES">
+        <MappingFragment StoreEntitySet="TB_OFICINAS_TB_TRAMITES">
+          <ScalarProperty Name="PK_OFICINA_TRAMITE" ColumnName="PK_OFICINA_TRAMITE" />
+          <ScalarProperty Name="FK_TRAMITE" ColumnName="FK_TRAMITE" />
+          <ScalarProperty Name="FK_OFICINA" ColumnName="FK_OFICINA" />
+          <ScalarProperty Name="FL_CAPACIDAD" ColumnName="FL_CAPACIDAD" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_TIPO_DOCUMENTOS">
+      <EntityTypeMapping TypeName="CNSFFORMULARIOS2Model.TB_TIPO_DOCUMENTOS">
+        <MappingFragment StoreEntitySet="TB_TIPO_DOCUMENTOS">
+          <ScalarProperty Name="PK_TIPO_DOCUMENTO" ColumnName="PK_TIPO_DOCUMENTO" />
+          <ScalarProperty Name="FL_NOMBRE" ColumnName="FL_NOMBRE" />
+          <ScalarProperty Name="FL_GUID" ColumnName="FL_GUID" />
+          <ScalarProperty Name="FL_CADUCIDAD" ColumnName="FL_CADUCIDAD" />
+          <ScalarProperty Name="FL_CONSERVA" ColumnName="FL_CONSERVA" />
+          <ScalarProperty Name="FL_TIPO" ColumnName="FL_TIPO" />
+          <ScalarProperty Name="FL_AGREGADO" ColumnName="FL_AGREGADO" />
+          <ScalarProperty Name="FL_MIS" ColumnName="FL_MIS" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_TRAMITES">
+      <EntityTypeMapping TypeName="CNSFFORMULARIOS2Model.TB_TRAMITES">
+        <MappingFragment StoreEntitySet="TB_TRAMITES">
+          <ScalarProperty Name="PK_TRAMITE" ColumnName="PK_TRAMITE" />
+          <ScalarProperty Name="FL_NAME" ColumnName="FL_NAME" />
+          <ScalarProperty Name="FL_DESCRIPCION" ColumnName="FL_DESCRIPCION" />
+          <ScalarProperty Name="FK_TIPO_TRAMITE" ColumnName="FK_TIPO_TRAMITE" />
+          <ScalarProperty Name="FL_AUTENTIFICACION" ColumnName="FL_AUTENTIFICACION" />
+          <ScalarProperty Name="FL_CITA" ColumnName="FL_CITA" />
+          <ScalarProperty Name="FL_DURACION" ColumnName="FL_DURACION" />
+          <ScalarProperty Name="FL_ESTATUS" ColumnName="FL_ESTATUS" />
+          <ScalarProperty Name="FL_ACUSE" ColumnName="FL_ACUSE" />
+          <ScalarProperty Name="FL_ARCHIVO" ColumnName="FL_ARCHIVO" />
+          <ScalarProperty Name="FL_GUID" ColumnName="FL_GUID" />
+          <ScalarProperty Name="FL_MYME" ColumnName="FL_MYME" />
+          <ScalarProperty Name="FL_REQUERIMIENTO" ColumnName="FL_REQUERIMIENTO" />
+          <ScalarProperty Name="FL_URL" ColumnName="FL_URL" />
+          <ScalarProperty Name="FL_GUID_SERVICIO" ColumnName="FL_GUID_SERVICIO" />
+          <ScalarProperty Name="FL_DIAS" ColumnName="FL_DIAS" />
+          <ScalarProperty Name="FL_NOMBRE_LARGO" ColumnName="FL_NOMBRE_LARGO" />
+          <ScalarProperty Name="FL_TRAMITE_RELACIONADO" ColumnName="FL_TRAMITE_RELACIONADO" />
+          <ScalarProperty Name="FL_SISTEMA" ColumnName="FL_SISTEMA" />
+          <ScalarProperty Name="FL_ORDEN" ColumnName="FL_ORDEN" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_TRAMITES_TB_CLASIFICACION">
+      <EntityTypeMapping TypeName="CNSFFORMULARIOS2Model.TB_TRAMITES_TB_CLASIFICACION">
+        <MappingFragment StoreEntitySet="TB_TRAMITES_TB_CLASIFICACION">
+          <ScalarProperty Name="PK_TRAMITE_CLASIFICACION" ColumnName="PK_TRAMITE_CLASIFICACION" />
+          <ScalarProperty Name="FK_CLASIFICACION" ColumnName="FK_CLASIFICACION" />
+          <ScalarProperty Name="FK_TRAMITE" ColumnName="FK_TRAMITE" />
+          <ScalarProperty Name="FK_PADRE" ColumnName="FK_PADRE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_USER_TB_TRAMITES">
+      <EntityTypeMapping TypeName="CNSFFORMULARIOS2Model.TB_USER_TB_TRAMITES">
+        <MappingFragment StoreEntitySet="TB_USER_TB_TRAMITES">
+          <ScalarProperty Name="PK_USER_TRAMITE" ColumnName="PK_USER_TRAMITE" />
+          <ScalarProperty Name="FK_USER" ColumnName="FK_USER" />
+          <ScalarProperty Name="FK_TRAMITE" ColumnName="FK_TRAMITE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_USERS">
+      <EntityTypeMapping TypeName="CNSFFORMULARIOS2Model.TB_USERS">
+        <MappingFragment StoreEntitySet="TB_USERS">
+          <ScalarProperty Name="PK_USER" ColumnName="PK_USER" />
+          <ScalarProperty Name="FL_NOMBRE" ColumnName="FL_NOMBRE" />
+          <ScalarProperty Name="FL_EMAIL" ColumnName="FL_EMAIL" />
+          <ScalarProperty Name="FL_PASSWORD" ColumnName="FL_PASSWORD" />
+          <ScalarProperty Name="FL_ESTATUS" ColumnName="FL_ESTATUS" />
+          <ScalarProperty Name="FL_RFC" ColumnName="FL_RFC" />
+          <ScalarProperty Name="FL_CURP" ColumnName="FL_CURP" />
+          <ScalarProperty Name="FL_FECHA" ColumnName="FL_FECHA" />
+          <ScalarProperty Name="FL_PERFIL" ColumnName="FL_PERFIL" />
+          <ScalarProperty Name="FK_INSTITUCION" ColumnName="FK_INSTITUCION" />
+          <ScalarProperty Name="FL_APELLIDO_P" ColumnName="FL_APELLIDO_P" />
+          <ScalarProperty Name="FL_APELLIDO_M" ColumnName="FL_APELLIDO_M" />
+          <ScalarProperty Name="FL_GUID" ColumnName="FL_GUID" />
+          <ScalarProperty Name="FL_TELEFONO_O" ColumnName="FL_TELEFONO_O" />
+          <ScalarProperty Name="FL_TELEFONO_P" ColumnName="FL_TELEFONO_P" />
+          <ScalarProperty Name="FL_TEL_CEL" ColumnName="FL_TEL_CEL" />
+          <ScalarProperty Name="FL_CALLE_F" ColumnName="FL_CALLE_F" />
+          <ScalarProperty Name="FL_NUM_I_F" ColumnName="FL_NUM_I_F" />
+          <ScalarProperty Name="FL_NUMERO_E_F" ColumnName="FL_NUMERO_E_F" />
+          <ScalarProperty Name="FL_COLONIA_F" ColumnName="FL_COLONIA_F" />
+          <ScalarProperty Name="FL_POBLACION_F" ColumnName="FL_POBLACION_F" />
+          <ScalarProperty Name="FL_ESTADO_F" ColumnName="FL_ESTADO_F" />
+          <ScalarProperty Name="FL_CP_F" ColumnName="FL_CP_F" />
+          <ScalarProperty Name="FL_CALLE_P" ColumnName="FL_CALLE_P" />
+          <ScalarProperty Name="FL_NUM_E_P" ColumnName="FL_NUM_E_P" />
+          <ScalarProperty Name="FL_NUMERO_I_P" ColumnName="FL_NUMERO_I_P" />
+          <ScalarProperty Name="FL_COLONIA_P" ColumnName="FL_COLONIA_P" />
+          <ScalarProperty Name="FL_ESTADO_P" ColumnName="FL_ESTADO_P" />
+          <ScalarProperty Name="FL_CP_P" ColumnName="FL_CP_P" />
+          <ScalarProperty Name="FL_POBLACION_P" ColumnName="FL_POBLACION_P" />
+          <ScalarProperty Name="FL_TERMINOS" ColumnName="FL_TERMINOS" />
+          <ScalarProperty Name="FL_FECHA_NACIMIENTO" ColumnName="FL_FECHA_NACIMIENTO" />
+          <ScalarProperty Name="FL_NACIONALIDAD" ColumnName="FL_NACIONALIDAD" />
+          <ScalarProperty Name="FL_LUGAR_NACIMEINTO" ColumnName="FL_LUGAR_NACIMEINTO" />
+          <ScalarProperty Name="FL_ESCOLARIDAD" ColumnName="FL_ESCOLARIDAD" />
+          <ScalarProperty Name="FL_SESSION" ColumnName="FL_SESSION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_HTMLS">
+      <EntityTypeMapping TypeName="CNSFFORMULARIOS2Model.TB_HTMLS">
+        <MappingFragment StoreEntitySet="TB_HTMLS">
+          <ScalarProperty Name="PK_HTML" ColumnName="PK_HTML" />
+          <ScalarProperty Name="FL_HTML" ColumnName="FL_HTML" />
+          <ScalarProperty Name="FL_ACTIVO" ColumnName="FL_ACTIVO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,1030 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CNSFFORMULARIOS2Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="IntellIDE_Autorizacion_Agentes_de_Seguros">
+    <Key>
+      <PropertyRef Name="IntellIDE_PK_Autorizacion_Agentes_de_Seguros" />
+    </Key>
+    <Property Name="ContentTypeId" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="Title" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="C_ModerationComments" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="File_x0020_Type" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="IntellideUsuario" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_Nombre" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_Apellido" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_Materno" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_Email" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_RFC" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_CURP" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_FechaNacimiento" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_LugarNacimiento" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_Nacionalidad" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_Escolaridad" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_TelefonoParticular" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_TelefonoOficina" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_TelefonoCelular" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_Calle" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_NoExterior" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_NoInterior" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_CP" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_Colonia" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_Poblacion" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_Estado" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_Calle2" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_NoExterior2" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_NoInterior2" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_CP2" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_Colonia2" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_Poblacion2" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_Estado2" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_Instituciones" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="Author" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="Editor" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="Modified" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="Created" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="Cedula" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="campo2" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="campo3" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="campo4" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="campo5" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="campo6" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="campo7" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="ID" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="ContentType" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="C_HasCopyDestinations" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="C_CopySource" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="owshiddenversion" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="WorkflowVersion" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="C_UIVersion" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="C_UIVersionString" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="Attachments" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="C_ModerationStatus" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="Edit" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="LinkTitleNoMenu" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="LinkTitle" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="LinkTitle2" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="SelectTitle" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="InstanceID" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="Order" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="GUID" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="WorkflowInstanceID" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="FileRef" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="FileDirRef" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="Last_x0020_Modified" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="Created_x0020_Date" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="FSObjType" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="SortBehavior" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="PermMask" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="FileLeafRef" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="UniqueId" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="SyncClientId" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="ProgId" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="ScopeId" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="HTML_x0020_File_x0020_Type" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="C_EditMenuTableStart" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="C_EditMenuTableStart2" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="C_EditMenuTableEnd" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="LinkFilenameNoMenu" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="LinkFilename" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="LinkFilename2" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="DocIcon" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="ServerUrl" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="EncodedAbsUrl" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="BaseName" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="MetaInfo" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="C_Level" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="C_IsCurrentVersion" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="ItemChildCount" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="FolderChildCount" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="IntellIDE_GUID" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="IntellIDE_Owner" Type="Int64" />
+    <Property Name="IntellIDE_Status" Type="Int32" />
+    <Property Name="IntellIDE_CreatedDate" Type="DateTime" Precision="3" />
+    <Property Name="IntellIDE_ModifyDate" Type="DateTime" Precision="3" />
+    <Property Name="IntellIDE_PK_Autorizacion_Agentes_de_Seguros" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IntellIDE_Folio" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="IntellIDE_PRUEBA01">
+    <Key>
+      <PropertyRef Name="IntellIDE_PK_PRUEBA01" />
+    </Key>
+    <Property Name="ContentTypeId" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="Title" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="C_ModerationComments" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="File_x0020_Type" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="IntellideUsuario" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_Nombre" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_Apellido" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_Materno" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_Email" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_RFC" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_CURP" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_FechaNacimiento" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_LugarNacimiento" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_Nacionalidad" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_Escolaridad" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_TelefonoParticular" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_TelefonoOficina" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_TelefonoCelular" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_Calle" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_NoExterior" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_NoInterior" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_CP" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_Colonia" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_Poblacion" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_Estado" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_Calle2" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_NoExterior2" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_NoInterior2" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_CP2" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_Colonia2" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_Poblacion2" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_Estado2" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_Instituciones" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="Author" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="Editor" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="Modified" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="Created" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="campo1" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="campo2" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="campo3" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="campo4" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="campo5" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="campo6" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="campo7" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="campo8" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="campo9" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="campo10" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="campo11" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="ID" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="ContentType" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="C_HasCopyDestinations" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="C_CopySource" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="owshiddenversion" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="WorkflowVersion" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="C_UIVersion" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="C_UIVersionString" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="Attachments" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="C_ModerationStatus" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="Edit" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="LinkTitleNoMenu" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="LinkTitle" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="LinkTitle2" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="SelectTitle" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="InstanceID" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="Order" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="GUID" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="WorkflowInstanceID" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="FileRef" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="FileDirRef" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="Last_x0020_Modified" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="Created_x0020_Date" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="FSObjType" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="SortBehavior" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="PermMask" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="FileLeafRef" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="UniqueId" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="SyncClientId" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="ProgId" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="ScopeId" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="HTML_x0020_File_x0020_Type" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="C_EditMenuTableStart" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="C_EditMenuTableStart2" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="C_EditMenuTableEnd" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="LinkFilenameNoMenu" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="LinkFilename" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="LinkFilename2" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="DocIcon" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="ServerUrl" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="EncodedAbsUrl" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="BaseName" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="MetaInfo" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="C_Level" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="C_IsCurrentVersion" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="ItemChildCount" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="FolderChildCount" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="IntellIDE_GUID" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="IntellIDE_Owner" Type="Int64" />
+    <Property Name="IntellIDE_Status" Type="Int32" />
+    <Property Name="IntellIDE_CreatedDate" Type="DateTime" Precision="3" />
+    <Property Name="IntellIDE_ModifyDate" Type="DateTime" Precision="3" />
+    <Property Name="IntellIDE_PK_PRUEBA01" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IntellIDE_Folio" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="IntellIDE_PRUEBA02">
+    <Key>
+      <PropertyRef Name="IntellIDE_PK_PRUEBA02" />
+    </Key>
+    <Property Name="ContentTypeId" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="Title" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="C_ModerationComments" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="File_x0020_Type" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="IntellideUsuario" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_Nombre" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_Apellido" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_Materno" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_Email" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_RFC" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_CURP" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_FechaNacimiento" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_LugarNacimiento" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_Nacionalidad" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_Escolaridad" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_TelefonoParticular" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_TelefonoOficina" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_TelefonoCelular" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_Calle" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_NoExterior" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_NoInterior" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_CP" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_Colonia" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_Poblacion" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_Estado" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_Calle2" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_NoExterior2" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_NoInterior2" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_CP2" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_Colonia2" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_Poblacion2" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_Estado2" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_Instituciones" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="Author" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="Editor" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="Modified" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="Created" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="ID" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="ContentType" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="C_HasCopyDestinations" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="C_CopySource" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="owshiddenversion" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="WorkflowVersion" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="C_UIVersion" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="C_UIVersionString" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="Attachments" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="C_ModerationStatus" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="Edit" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="LinkTitleNoMenu" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="LinkTitle" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="LinkTitle2" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="SelectTitle" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="InstanceID" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="Order" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="GUID" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="WorkflowInstanceID" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="FileRef" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="FileDirRef" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="Last_x0020_Modified" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="Created_x0020_Date" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="FSObjType" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="SortBehavior" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="PermMask" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="FileLeafRef" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="UniqueId" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="SyncClientId" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="ProgId" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="ScopeId" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="HTML_x0020_File_x0020_Type" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="C_EditMenuTableStart" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="C_EditMenuTableStart2" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="C_EditMenuTableEnd" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="LinkFilenameNoMenu" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="LinkFilename" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="LinkFilename2" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="DocIcon" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="ServerUrl" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="EncodedAbsUrl" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="BaseName" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="MetaInfo" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="C_Level" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="C_IsCurrentVersion" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="ItemChildCount" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="FolderChildCount" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="IntellIDE_GUID" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="IntellIDE_Owner" Type="Int64" />
+    <Property Name="IntellIDE_Status" Type="Int32" />
+    <Property Name="IntellIDE_CreatedDate" Type="DateTime" Precision="3" />
+    <Property Name="IntellIDE_ModifyDate" Type="DateTime" Precision="3" />
+    <Property Name="IntellIDE_PK_PRUEBA02" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IntellIDE_Folio" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="IntellIDE_Refrendo_de_Agente_de_Seguros">
+    <Key>
+      <PropertyRef Name="IntellIDE_PK_Refrendo_de_Agente_de_Seguros" />
+    </Key>
+    <Property Name="ContentTypeId" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="Title" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="C_ModerationComments" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="File_x0020_Type" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="IntellideUsuario" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_Nombre" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_Apellido" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_Materno" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_Email" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_RFC" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_CURP" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_FechaNacimiento" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_LugarNacimiento" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_Nacionalidad" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_Escolaridad" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_TelefonoParticular" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_TelefonoOficina" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_TelefonoCelular" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_Calle" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_NoExterior" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_NoInterior" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_CP" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_Colonia" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_Poblacion" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_Estado" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_Calle2" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_NoExterior2" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_NoInterior2" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_CP2" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_Colonia2" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_Poblacion2" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_Estado2" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_Instituciones" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="Author" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="Editor" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="Modified" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="Created" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="Cedula" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="campo2" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="campo3" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="campo4" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="campo5" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="campo6" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="campo7" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="campo8" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="campo9" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="campo10" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="campo11" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="campo12" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="ID" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="ContentType" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="C_HasCopyDestinations" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="C_CopySource" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="owshiddenversion" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="WorkflowVersion" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="C_UIVersion" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="C_UIVersionString" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="Attachments" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="C_ModerationStatus" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="Edit" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="LinkTitleNoMenu" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="LinkTitle" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="LinkTitle2" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="SelectTitle" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="InstanceID" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="Order" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="GUID" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="WorkflowInstanceID" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="FileRef" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="FileDirRef" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="Last_x0020_Modified" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="Created_x0020_Date" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="FSObjType" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="SortBehavior" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="PermMask" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="FileLeafRef" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="UniqueId" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="SyncClientId" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="ProgId" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="ScopeId" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="HTML_x0020_File_x0020_Type" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="C_EditMenuTableStart" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="C_EditMenuTableStart2" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="C_EditMenuTableEnd" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="LinkFilenameNoMenu" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="LinkFilename" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="LinkFilename2" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="DocIcon" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="ServerUrl" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="EncodedAbsUrl" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="BaseName" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="MetaInfo" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="C_Level" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="C_IsCurrentVersion" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="ItemChildCount" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="FolderChildCount" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="IntellIDE_GUID" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="IntellIDE_Owner" Type="Int64" />
+    <Property Name="IntellIDE_Status" Type="Int32" />
+    <Property Name="IntellIDE_CreatedDate" Type="DateTime" Precision="3" />
+    <Property Name="IntellIDE_ModifyDate" Type="DateTime" Precision="3" />
+    <Property Name="IntellIDE_PK_Refrendo_de_Agente_de_Seguros" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IntellIDE_Folio" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="IntellIDE_Tramite_de_prueba">
+    <Key>
+      <PropertyRef Name="IntellIDE_PK_Tramite_de_prueba" />
+    </Key>
+    <Property Name="ContentTypeId" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="Title" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="C_ModerationComments" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="File_x0020_Type" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="IntellideUsuario" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_Nombre" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_Apellido" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_Materno" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_Email" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_RFC" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_CURP" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_FechaNacimiento" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_LugarNacimiento" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_Nacionalidad" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_Escolaridad" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_TelefonoParticular" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_TelefonoOficina" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_TelefonoCelular" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_Calle" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_NoExterior" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_NoInterior" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_CP" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_Colonia" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_Poblacion" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_Estado" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_Calle2" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_NoExterior2" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_NoInterior2" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_CP2" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_Colonia2" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_Poblacion2" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_Estado2" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="f_Instituciones" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="Author" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="Editor" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="Modified" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="Created" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="ID" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="ContentType" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="C_HasCopyDestinations" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="C_CopySource" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="owshiddenversion" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="WorkflowVersion" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="C_UIVersion" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="C_UIVersionString" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="Attachments" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="C_ModerationStatus" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="Edit" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="LinkTitleNoMenu" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="LinkTitle" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="LinkTitle2" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="SelectTitle" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="InstanceID" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="Order" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="GUID" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="WorkflowInstanceID" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="FileRef" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="FileDirRef" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="Last_x0020_Modified" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="Created_x0020_Date" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="FSObjType" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="SortBehavior" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="PermMask" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="FileLeafRef" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="UniqueId" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="SyncClientId" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="ProgId" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="ScopeId" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="HTML_x0020_File_x0020_Type" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="C_EditMenuTableStart" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="C_EditMenuTableStart2" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="C_EditMenuTableEnd" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="LinkFilenameNoMenu" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="LinkFilename" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="LinkFilename2" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="DocIcon" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="ServerUrl" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="EncodedAbsUrl" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="BaseName" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="MetaInfo" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="C_Level" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="C_IsCurrentVersion" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="ItemChildCount" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="FolderChildCount" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="IntellIDE_GUID" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="IntellIDE_Owner" Type="Int64" />
+    <Property Name="IntellIDE_Status" Type="Int32" />
+    <Property Name="IntellIDE_CreatedDate" Type="DateTime" Precision="3" />
+    <Property Name="IntellIDE_ModifyDate" Type="DateTime" Precision="3" />
+    <Property Name="IntellIDE_PK_Tramite_de_prueba" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IntellIDE_Folio" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="TB_ACTIVIDADES">
+    <Key>
+      <PropertyRef Name="PK_ACTIVIDAD" />
+    </Key>
+    <Property Name="PK_ACTIVIDAD" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FL_DESCRIPCION" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="FL_NAME" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="TB_LOG" Relationship="Self.FK_TB_LOG_TB_ACTIVIDADES" FromRole="TB_ACTIVIDADES" ToRole="TB_LOG" />
+  </EntityType>
+  <EntityType Name="TB_CLASIFICACION">
+    <Key>
+      <PropertyRef Name="PK_CLASIFICACION" />
+    </Key>
+    <Property Name="PK_CLASIFICACION" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FL_NAME" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="FL_GUID" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="FL_ORDEN" Type="Int32" />
+    <NavigationProperty Name="TB_TRAMITES_TB_CLASIFICACION" Relationship="Self.FK_TB_TRAMITES_TB_CLASIFICACION_TB_CLASIFICACION" FromRole="TB_CLASIFICACION" ToRole="TB_TRAMITES_TB_CLASIFICACION" />
+    <NavigationProperty Name="TB_TRAMITES_TB_CLASIFICACION1" Relationship="Self.FK_TB_TRAMITES_TB_CLASIFICACION_TB_CLASIFICACION1" FromRole="TB_CLASIFICACION" ToRole="TB_TRAMITES_TB_CLASIFICACION" />
+  </EntityType>
+  <EntityType Name="TB_COMENTARIOS">
+    <Key>
+      <PropertyRef Name="PK_COMENTARIO" />
+    </Key>
+    <Property Name="PK_COMENTARIO" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FL_COMENTARIO" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="TB_DIRECCIONES">
+    <Key>
+      <PropertyRef Name="PK_DIRECCION" />
+    </Key>
+    <Property Name="PK_DIRECCION" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FL_TIPO" Type="Int32" />
+    <Property Name="FL_CALLE" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="FL_NUMERO_I" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="FL_NUMERO_E" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="FL_COLONIA" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="FL_POBLACION" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="FL_ESTADO" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="FL_CP" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="FL_TELEFONO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="FK_USER" Type="Int64" />
+    <Property Name="FL_ACTIVO" Type="Boolean" />
+    <NavigationProperty Name="TB_USERS" Relationship="Self.FK_TB_DIRECCIONES_TB_USERS" FromRole="TB_DIRECCIONES" ToRole="TB_USERS" />
+  </EntityType>
+  <EntityType Name="TB_DOCUMENTOS">
+    <Key>
+      <PropertyRef Name="PK_DOCUMENTO" />
+    </Key>
+    <Property Name="PK_DOCUMENTO" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FL_CIF" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="FL_MYME_CIF" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Name="FL_RFC" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="FL_MYME_RFC" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Name="FL_ACTA_N" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="FL_MYME_ACTA" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Name="FL_FOTO_IR" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="FL_MYME_IR" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Name="FL_COMPROBANTE_D" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="FL_MYME_CD" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Name="FL_CERTIFICADO_E" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="FL_MYME_C_E" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Name="FL_CURP" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="FL_MYME_CURP" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Name="FL_IDENTIFICACION_O" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="FL_MYME_I_O" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Name="FK_USER" Type="Int64" />
+    <Property Name="FL_ACTIVO" Type="Boolean" />
+    <Property Name="FK_TRAMITE" Type="Int64" />
+    <NavigationProperty Name="TB_TRAMITES" Relationship="Self.FK_TB_DOCUMENTOS_TB_TRAMITES" FromRole="TB_DOCUMENTOS" ToRole="TB_TRAMITES" />
+    <NavigationProperty Name="TB_USERS" Relationship="Self.FK_TB_DOCUMENTOS_TB_USERS" FromRole="TB_DOCUMENTOS" ToRole="TB_USERS" />
+  </EntityType>
+  <EntityType Name="TB_DOCUMENTOS_TRAMITES">
+    <Key>
+      <PropertyRef Name="PK_OFICINA_TRAMITE" />
+    </Key>
+    <Property Name="PK_OFICINA_TRAMITE" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FK_TRAMITE" Type="Int64" />
+    <Property Name="FK_DOCUMENTO" Type="Int64" />
+    <Property Name="FL_ACTIVO" Type="Boolean" />
+    <Property Name="FL_OBLIGATORIO" Type="Boolean" />
+    <NavigationProperty Name="TB_TIPO_DOCUMENTOS" Relationship="Self.FK_TB_DOCUMENTOS_TRAMITES_TB_DOCUMENTOS" FromRole="TB_DOCUMENTOS_TRAMITES" ToRole="TB_TIPO_DOCUMENTOS" />
+    <NavigationProperty Name="TB_TRAMITES" Relationship="Self.FK_TB_DOCUMENTOS_TRAMITES_TB_TRAMITES" FromRole="TB_DOCUMENTOS_TRAMITES" ToRole="TB_TRAMITES" />
+  </EntityType>
+  <EntityType Name="TB_INSTITUCIONES">
+    <Key>
+      <PropertyRef Name="PK_INSTITUCION" />
+    </Key>
+    <Property Name="PK_INSTITUCION" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FL_NAME" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="FL_SECTOR" Type="Int32" />
+    <Property Name="FL_ACTIVO" Type="Boolean" />
+    <NavigationProperty Name="TB_USERS" Relationship="Self.FK_TB_USERS_TB_INSTITUCIONES" FromRole="TB_INSTITUCIONES" ToRole="TB_USERS" />
+  </EntityType>
+  <EntityType Name="TB_LOG">
+    <Key>
+      <PropertyRef Name="PK_LOG" />
+    </Key>
+    <Property Name="PK_LOG" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FL_ACTIVIDAD" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="FK_USER" Type="Int64" />
+    <Property Name="FL_TIPO" Type="Int32" />
+    <Property Name="FL_FECHA" Type="DateTime" Precision="3" />
+    <Property Name="FK_ACTIVIDAD" Type="Int64" />
+    <NavigationProperty Name="TB_ACTIVIDADES" Relationship="Self.FK_TB_LOG_TB_ACTIVIDADES" FromRole="TB_LOG" ToRole="TB_ACTIVIDADES" />
+    <NavigationProperty Name="TB_USERS" Relationship="Self.FK_TB_LOG_TB_USERS" FromRole="TB_LOG" ToRole="TB_USERS" />
+  </EntityType>
+  <EntityType Name="TB_MISDOCUMENTOS">
+    <Key>
+      <PropertyRef Name="PK_MISDOCUMENTOS" />
+    </Key>
+    <Property Name="PK_MISDOCUMENTOS" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FK_USER" Type="Int64" />
+    <Property Name="FK_TIPO_DOCUMENTO" Type="Int64" />
+    <Property Name="FL_ARCHIVO" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="FL_MIME" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="FK_TRAMITE" Type="Int64" />
+    <Property Name="FL_SOLICITUD" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="FL_ACTIVO" Type="Boolean" />
+    <NavigationProperty Name="TB_TIPO_DOCUMENTOS" Relationship="Self.FK_TB_MISDOCUMENTOS_TB_TIPO_DOCUMENTOS" FromRole="TB_MISDOCUMENTOS" ToRole="TB_TIPO_DOCUMENTOS" />
+    <NavigationProperty Name="TB_TRAMITES" Relationship="Self.FK_TB_MISDOCUMENTOS_TB_TRAMITES" FromRole="TB_MISDOCUMENTOS" ToRole="TB_TRAMITES" />
+    <NavigationProperty Name="TB_USERS" Relationship="Self.FK_TB_MISDOCUMENTOS_TB_USERS" FromRole="TB_MISDOCUMENTOS" ToRole="TB_USERS" />
+  </EntityType>
+  <EntityType Name="TB_OFICINAS">
+    <Key>
+      <PropertyRef Name="PK_OFICINA" />
+    </Key>
+    <Property Name="PK_OFICINA" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FL_NAME" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="FL_DIRECCION" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="FL_EMAIL" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="FL_TELEFONO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="FL_HORA_MI" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="FL_HORA_MF" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="FL_HORA_VI" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="FL_HORA_VF" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="FL_ESTATUS" Type="Int32" />
+    <Property Name="FL_DIAS_INHABILES" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="FL_GUID" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="FL_URL" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="FL_ZONA" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="TB_OFICINAS_TB_TRAMITES">
+    <Key>
+      <PropertyRef Name="PK_OFICINA_TRAMITE" />
+    </Key>
+    <Property Name="PK_OFICINA_TRAMITE" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FK_TRAMITE" Type="Int64" />
+    <Property Name="FK_OFICINA" Type="Int64" />
+    <Property Name="FL_CAPACIDAD" Type="Int32" />
+  </EntityType>
+  <EntityType Name="TB_TIPO_DOCUMENTOS">
+    <Key>
+      <PropertyRef Name="PK_TIPO_DOCUMENTO" />
+    </Key>
+    <Property Name="PK_TIPO_DOCUMENTO" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FL_NOMBRE" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="FL_GUID" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="FL_CADUCIDAD" Type="Int32" />
+    <Property Name="FL_CONSERVA" Type="Boolean" />
+    <Property Name="FL_TIPO" Type="String" MaxLength="8000" FixedLength="false" Unicode="false" />
+    <Property Name="FL_AGREGADO" Type="Boolean" />
+    <Property Name="FL_MIS" Type="Boolean" />
+    <NavigationProperty Name="TB_DOCUMENTOS_TRAMITES" Relationship="Self.FK_TB_DOCUMENTOS_TRAMITES_TB_DOCUMENTOS" FromRole="TB_TIPO_DOCUMENTOS" ToRole="TB_DOCUMENTOS_TRAMITES" />
+    <NavigationProperty Name="TB_MISDOCUMENTOS" Relationship="Self.FK_TB_MISDOCUMENTOS_TB_TIPO_DOCUMENTOS" FromRole="TB_TIPO_DOCUMENTOS" ToRole="TB_MISDOCUMENTOS" />
+  </EntityType>
+  <EntityType Name="TB_TRAMITES">
+    <Key>
+      <PropertyRef Name="PK_TRAMITE" />
+    </Key>
+    <Property Name="PK_TRAMITE" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FL_NAME" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="FL_DESCRIPCION" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="FK_TIPO_TRAMITE" Type="Int64" />
+    <Property Name="FL_AUTENTIFICACION" Type="Int32" />
+    <Property Name="FL_CITA" Type="Boolean" />
+    <Property Name="FL_DURACION" Type="Int32" Nullable="false" />
+    <Property Name="FL_ESTATUS" Type="Int32" />
+    <Property Name="FL_ACUSE" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="FL_ARCHIVO" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="FL_GUID" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="FL_MYME" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="FL_REQUERIMIENTO" Type="String" MaxLength="350" FixedLength="false" Unicode="false" />
+    <Property Name="FL_URL" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="FL_GUID_SERVICIO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="FL_DIAS" Type="Int32" />
+    <Property Name="FL_NOMBRE_LARGO" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="FL_TRAMITE_RELACIONADO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="FL_SISTEMA" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="FL_ORDEN" Type="Int64" />
+    <NavigationProperty Name="TB_DOCUMENTOS" Relationship="Self.FK_TB_DOCUMENTOS_TB_TRAMITES" FromRole="TB_TRAMITES" ToRole="TB_DOCUMENTOS" />
+    <NavigationProperty Name="TB_DOCUMENTOS_TRAMITES" Relationship="Self.FK_TB_DOCUMENTOS_TRAMITES_TB_TRAMITES" FromRole="TB_TRAMITES" ToRole="TB_DOCUMENTOS_TRAMITES" />
+    <NavigationProperty Name="TB_MISDOCUMENTOS" Relationship="Self.FK_TB_MISDOCUMENTOS_TB_TRAMITES" FromRole="TB_TRAMITES" ToRole="TB_MISDOCUMENTOS" />
+    <NavigationProperty Name="TB_TRAMITES_TB_CLASIFICACION" Relationship="Self.FK_TB_TRAMITES_TB_CLASIFICACION_TB_TRAMITES" FromRole="TB_TRAMITES" ToRole="TB_TRAMITES_TB_CLASIFICACION" />
+  </EntityType>
+  <EntityType Name="TB_TRAMITES_TB_CLASIFICACION">
+    <Key>
+      <PropertyRef Name="PK_TRAMITE_CLASIFICACION" />
+    </Key>
+    <Property Name="PK_TRAMITE_CLASIFICACION" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FK_CLASIFICACION" Type="Int64" />
+    <Property Name="FK_TRAMITE" Type="Int64" />
+    <Property Name="FK_PADRE" Type="Int64" />
+    <NavigationProperty Name="TB_CLASIFICACION" Relationship="Self.FK_TB_TRAMITES_TB_CLASIFICACION_TB_CLASIFICACION" FromRole="TB_TRAMITES_TB_CLASIFICACION" ToRole="TB_CLASIFICACION" />
+    <NavigationProperty Name="TB_CLASIFICACION1" Relationship="Self.FK_TB_TRAMITES_TB_CLASIFICACION_TB_CLASIFICACION1" FromRole="TB_TRAMITES_TB_CLASIFICACION" ToRole="TB_CLASIFICACION" />
+    <NavigationProperty Name="TB_TRAMITES" Relationship="Self.FK_TB_TRAMITES_TB_CLASIFICACION_TB_TRAMITES" FromRole="TB_TRAMITES_TB_CLASIFICACION" ToRole="TB_TRAMITES" />
+  </EntityType>
+  <EntityType Name="TB_USER_TB_TRAMITES">
+    <Key>
+      <PropertyRef Name="PK_USER_TRAMITE" />
+    </Key>
+    <Property Name="PK_USER_TRAMITE" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FK_USER" Type="Int64" />
+    <Property Name="FK_TRAMITE" Type="Int64" />
+  </EntityType>
+  <EntityType Name="TB_USERS">
+    <Key>
+      <PropertyRef Name="PK_USER" />
+    </Key>
+    <Property Name="PK_USER" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FL_NOMBRE" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="FL_EMAIL" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="FL_PASSWORD" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="FL_ESTATUS" Type="Int32" />
+    <Property Name="FL_RFC" Type="String" MaxLength="13" FixedLength="false" Unicode="false" />
+    <Property Name="FL_CURP" Type="String" MaxLength="18" FixedLength="false" Unicode="false" />
+    <Property Name="FL_FECHA" Type="DateTime" Precision="3" />
+    <Property Name="FL_PERFIL" Type="Int32" />
+    <Property Name="FK_INSTITUCION" Type="Int64" />
+    <Property Name="FL_APELLIDO_P" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="FL_APELLIDO_M" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="FL_GUID" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="FL_TELEFONO_O" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="FL_TELEFONO_P" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="FL_TEL_CEL" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="FL_CALLE_F" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="FL_NUM_I_F" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="FL_NUMERO_E_F" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="FL_COLONIA_F" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="FL_POBLACION_F" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="FL_ESTADO_F" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Name="FL_CP_F" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="FL_CALLE_P" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="FL_NUM_E_P" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="FL_NUMERO_I_P" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="FL_COLONIA_P" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="FL_ESTADO_P" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Name="FL_CP_P" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="FL_POBLACION_P" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="FL_TERMINOS" Type="Boolean" />
+    <Property Name="FL_FECHA_NACIMIENTO" Type="DateTime" Precision="3" />
+    <Property Name="FL_NACIONALIDAD" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="FL_LUGAR_NACIMEINTO" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="FL_ESCOLARIDAD" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="FL_SESSION" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="TB_DIRECCIONES" Relationship="Self.FK_TB_DIRECCIONES_TB_USERS" FromRole="TB_USERS" ToRole="TB_DIRECCIONES" />
+    <NavigationProperty Name="TB_DOCUMENTOS" Relationship="Self.FK_TB_DOCUMENTOS_TB_USERS" FromRole="TB_USERS" ToRole="TB_DOCUMENTOS" />
+    <NavigationProperty Name="TB_INSTITUCIONES" Relationship="Self.FK_TB_USERS_TB_INSTITUCIONES" FromRole="TB_USERS" ToRole="TB_INSTITUCIONES" />
+    <NavigationProperty Name="TB_LOG" Relationship="Self.FK_TB_LOG_TB_USERS" FromRole="TB_USERS" ToRole="TB_LOG" />
+    <NavigationProperty Name="TB_MISDOCUMENTOS" Relationship="Self.FK_TB_MISDOCUMENTOS_TB_USERS" FromRole="TB_USERS" ToRole="TB_MISDOCUMENTOS" />
+  </EntityType>
+  <EntityType Name="TB_HTMLS">
+    <Key>
+      <PropertyRef Name="PK_HTML" />
+    </Key>
+    <Property Name="PK_HTML" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FL_HTML" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="FL_ACTIVO" Type="Boolean" />
+  </EntityType>
+  <Association Name="FK_TB_LOG_TB_ACTIVIDADES">
+    <End Role="TB_ACTIVIDADES" Type="Self.TB_ACTIVIDADES" Multiplicity="0..1" />
+    <End Role="TB_LOG" Type="Self.TB_LOG" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TB_ACTIVIDADES">
+        <PropertyRef Name="PK_ACTIVIDAD" />
+      </Principal>
+      <Dependent Role="TB_LOG">
+        <PropertyRef Name="FK_ACTIVIDAD" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TB_TRAMITES_TB_CLASIFICACION_TB_CLASIFICACION">
+    <End Role="TB_CLASIFICACION" Type="Self.TB_CLASIFICACION" Multiplicity="0..1" />
+    <End Role="TB_TRAMITES_TB_CLASIFICACION" Type="Self.TB_TRAMITES_TB_CLASIFICACION" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TB_CLASIFICACION">
+        <PropertyRef Name="PK_CLASIFICACION" />
+      </Principal>
+      <Dependent Role="TB_TRAMITES_TB_CLASIFICACION">
+        <PropertyRef Name="FK_CLASIFICACION" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TB_TRAMITES_TB_CLASIFICACION_TB_CLASIFICACION1">
+    <End Role="TB_CLASIFICACION" Type="Self.TB_CLASIFICACION" Multiplicity="0..1" />
+    <End Role="TB_TRAMITES_TB_CLASIFICACION" Type="Self.TB_TRAMITES_TB_CLASIFICACION" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TB_CLASIFICACION">
+        <PropertyRef Name="PK_CLASIFICACION" />
+      </Principal>
+      <Dependent Role="TB_TRAMITES_TB_CLASIFICACION">
+        <PropertyRef Name="FK_PADRE" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TB_DIRECCIONES_TB_USERS">
+    <End Role="TB_USERS" Type="Self.TB_USERS" Multiplicity="0..1" />
+    <End Role="TB_DIRECCIONES" Type="Self.TB_DIRECCIONES" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TB_USERS">
+        <PropertyRef Name="PK_USER" />
+      </Principal>
+      <Dependent Role="TB_DIRECCIONES">
+        <PropertyRef Name="FK_USER" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TB_DOCUMENTOS_TB_TRAMITES">
+    <End Role="TB_TRAMITES" Type="Self.TB_TRAMITES" Multiplicity="0..1" />
+    <End Role="TB_DOCUMENTOS" Type="Self.TB_DOCUMENTOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TB_TRAMITES">
+        <PropertyRef Name="PK_TRAMITE" />
+      </Principal>
+      <Dependent Role="TB_DOCUMENTOS">
+        <PropertyRef Name="FK_TRAMITE" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TB_DOCUMENTOS_TB_USERS">
+    <End Role="TB_USERS" Type="Self.TB_USERS" Multiplicity="0..1" />
+    <End Role="TB_DOCUMENTOS" Type="Self.TB_DOCUMENTOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TB_USERS">
+        <PropertyRef Name="PK_USER" />
+      </Principal>
+      <Dependent Role="TB_DOCUMENTOS">
+        <PropertyRef Name="FK_USER" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TB_DOCUMENTOS_TRAMITES_TB_DOCUMENTOS">
+    <End Role="TB_TIPO_DOCUMENTOS" Type="Self.TB_TIPO_DOCUMENTOS" Multiplicity="0..1" />
+    <End Role="TB_DOCUMENTOS_TRAMITES" Type="Self.TB_DOCUMENTOS_TRAMITES" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TB_TIPO_DOCUMENTOS">
+        <PropertyRef Name="PK_TIPO_DOCUMENTO" />
+      </Principal>
+      <Dependent Role="TB_DOCUMENTOS_TRAMITES">
+        <PropertyRef Name="FK_DOCUMENTO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TB_DOCUMENTOS_TRAMITES_TB_TRAMITES">
+    <End Role="TB_TRAMITES" Type="Self.TB_TRAMITES" Multiplicity="0..1" />
+    <End Role="TB_DOCUMENTOS_TRAMITES" Type="Self.TB_DOCUMENTOS_TRAMITES" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TB_TRAMITES">
+        <PropertyRef Name="PK_TRAMITE" />
+      </Principal>
+      <Dependent Role="TB_DOCUMENTOS_TRAMITES">
+        <PropertyRef Name="FK_TRAMITE" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TB_USERS_TB_INSTITUCIONES">
+    <End Role="TB_INSTITUCIONES" Type="Self.TB_INSTITUCIONES" Multiplicity="0..1" />
+    <End Role="TB_USERS" Type="Self.TB_USERS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TB_INSTITUCIONES">
+        <PropertyRef Name="PK_INSTITUCION" />
+      </Principal>
+      <Dependent Role="TB_USERS">
+        <PropertyRef Name="FK_INSTITUCION" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TB_LOG_TB_USERS">
+    <End Role="TB_USERS" Type="Self.TB_USERS" Multiplicity="0..1" />
+    <End Role="TB_LOG" Type="Self.TB_LOG" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TB_USERS">
+        <PropertyRef Name="PK_USER" />
+      </Principal>
+      <Dependent Role="TB_LOG">
+        <PropertyRef Name="FK_USER" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TB_MISDOCUMENTOS_TB_TIPO_DOCUMENTOS">
+    <End Role="TB_TIPO_DOCUMENTOS" Type="Self.TB_TIPO_DOCUMENTOS" Multiplicity="0..1" />
+    <End Role="TB_MISDOCUMENTOS" Type="Self.TB_MISDOCUMENTOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TB_TIPO_DOCUMENTOS">
+        <PropertyRef Name="PK_TIPO_DOCUMENTO" />
+      </Principal>
+      <Dependent Role="TB_MISDOCUMENTOS">
+        <PropertyRef Name="FK_TIPO_DOCUMENTO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TB_MISDOCUMENTOS_TB_TRAMITES">
+    <End Role="TB_TRAMITES" Type="Self.TB_TRAMITES" Multiplicity="0..1" />
+    <End Role="TB_MISDOCUMENTOS" Type="Self.TB_MISDOCUMENTOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TB_TRAMITES">
+        <PropertyRef Name="PK_TRAMITE" />
+      </Principal>
+      <Dependent Role="TB_MISDOCUMENTOS">
+        <PropertyRef Name="FK_TRAMITE" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TB_MISDOCUMENTOS_TB_USERS">
+    <End Role="TB_USERS" Type="Self.TB_USERS" Multiplicity="0..1" />
+    <End Role="TB_MISDOCUMENTOS" Type="Self.TB_MISDOCUMENTOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TB_USERS">
+        <PropertyRef Name="PK_USER" />
+      </Principal>
+      <Dependent Role="TB_MISDOCUMENTOS">
+        <PropertyRef Name="FK_USER" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TB_TRAMITES_TB_CLASIFICACION_TB_TRAMITES">
+    <End Role="TB_TRAMITES" Type="Self.TB_TRAMITES" Multiplicity="0..1" />
+    <End Role="TB_TRAMITES_TB_CLASIFICACION" Type="Self.TB_TRAMITES_TB_CLASIFICACION" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TB_TRAMITES">
+        <PropertyRef Name="PK_TRAMITE" />
+      </Principal>
+      <Dependent Role="TB_TRAMITES_TB_CLASIFICACION">
+        <PropertyRef Name="FK_TRAMITE" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="CNSFFORMULARIOS2Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="IntellIDE_Autorizacion_Agentes_de_Seguros" EntityType="Self.IntellIDE_Autorizacion_Agentes_de_Seguros" />
+    <EntitySet Name="IntellIDE_PRUEBA01" EntityType="Self.IntellIDE_PRUEBA01" />
+    <EntitySet Name="IntellIDE_PRUEBA02" EntityType="Self.IntellIDE_PRUEBA02" />
+    <EntitySet Name="IntellIDE_Refrendo_de_Agente_de_Seguros" EntityType="Self.IntellIDE_Refrendo_de_Agente_de_Seguros" />
+    <EntitySet Name="IntellIDE_Tramite_de_prueba" EntityType="Self.IntellIDE_Tramite_de_prueba" />
+    <EntitySet Name="TB_ACTIVIDADES" EntityType="Self.TB_ACTIVIDADES" />
+    <EntitySet Name="TB_CLASIFICACION" EntityType="Self.TB_CLASIFICACION" />
+    <EntitySet Name="TB_COMENTARIOS" EntityType="Self.TB_COMENTARIOS" />
+    <EntitySet Name="TB_DIRECCIONES" EntityType="Self.TB_DIRECCIONES" />
+    <EntitySet Name="TB_DOCUMENTOS" EntityType="Self.TB_DOCUMENTOS" />
+    <EntitySet Name="TB_DOCUMENTOS_TRAMITES" EntityType="Self.TB_DOCUMENTOS_TRAMITES" />
+    <EntitySet Name="TB_INSTITUCIONES" EntityType="Self.TB_INSTITUCIONES" />
+    <EntitySet Name="TB_LOG" EntityType="Self.TB_LOG" />
+    <EntitySet Name="TB_MISDOCUMENTOS" EntityType="Self.TB_MISDOCUMENTOS" />
+    <EntitySet Name="TB_OFICINAS" EntityType="Self.TB_OFICINAS" />
+    <EntitySet Name="TB_OFICINAS_TB_TRAMITES" EntityType="Self.TB_OFICINAS_TB_TRAMITES" />
+    <EntitySet Name="TB_TIPO_DOCUMENTOS" EntityType="Self.TB_TIPO_DOCUMENTOS" />
+    <EntitySet Name="TB_TRAMITES" EntityType="Self.TB_TRAMITES" />
+    <EntitySet Name="TB_TRAMITES_TB_CLASIFICACION" EntityType="Self.TB_TRAMITES_TB_CLASIFICACION" />
+    <EntitySet Name="TB_USER_TB_TRAMITES" EntityType="Self.TB_USER_TB_TRAMITES" />
+    <EntitySet Name="TB_USERS" EntityType="Self.TB_USERS" />
+    <EntitySet Name="TB_HTMLS" EntityType="Self.TB_HTMLS" />
+    <AssociationSet Name="FK_TB_LOG_TB_ACTIVIDADES" Association="Self.FK_TB_LOG_TB_ACTIVIDADES">
+      <End Role="TB_ACTIVIDADES" EntitySet="TB_ACTIVIDADES" />
+      <End Role="TB_LOG" EntitySet="TB_LOG" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TB_TRAMITES_TB_CLASIFICACION_TB_CLASIFICACION" Association="Self.FK_TB_TRAMITES_TB_CLASIFICACION_TB_CLASIFICACION">
+      <End Role="TB_CLASIFICACION" EntitySet="TB_CLASIFICACION" />
+      <End Role="TB_TRAMITES_TB_CLASIFICACION" EntitySet="TB_TRAMITES_TB_CLASIFICACION" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TB_TRAMITES_TB_CLASIFICACION_TB_CLASIFICACION1" Association="Self.FK_TB_TRAMITES_TB_CLASIFICACION_TB_CLASIFICACION1">
+      <End Role="TB_CLASIFICACION" EntitySet="TB_CLASIFICACION" />
+      <End Role="TB_TRAMITES_TB_CLASIFICACION" EntitySet="TB_TRAMITES_TB_CLASIFICACION" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TB_DIRECCIONES_TB_USERS" Association="Self.FK_TB_DIRECCIONES_TB_USERS">
+      <End Role="TB_USERS" EntitySet="TB_USERS" />
+      <End Role="TB_DIRECCIONES" EntitySet="TB_DIRECCIONES" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TB_DOCUMENTOS_TB_TRAMITES" Association="Self.FK_TB_DOCUMENTOS_TB_TRAMITES">
+      <End Role="TB_TRAMITES" EntitySet="TB_TRAMITES" />
+      <End Role="TB_DOCUMENTOS" EntitySet="TB_DOCUMENTOS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TB_DOCUMENTOS_TB_USERS" Association="Self.FK_TB_DOCUMENTOS_TB_USERS">
+      <End Role="TB_USERS" EntitySet="TB_USERS" />
+      <End Role="TB_DOCUMENTOS" EntitySet="TB_DOCUMENTOS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TB_DOCUMENTOS_TRAMITES_TB_DOCUMENTOS" Association="Self.FK_TB_DOCUMENTOS_TRAMITES_TB_DOCUMENTOS">
+      <End Role="TB_TIPO_DOCUMENTOS" EntitySet="TB_TIPO_DOCUMENTOS" />
+      <End Role="TB_DOCUMENTOS_TRAMITES" EntitySet="TB_DOCUMENTOS_TRAMITES" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TB_DOCUMENTOS_TRAMITES_TB_TRAMITES" Association="Self.FK_TB_DOCUMENTOS_TRAMITES_TB_TRAMITES">
+      <End Role="TB_TRAMITES" EntitySet="TB_TRAMITES" />
+      <End Role="TB_DOCUMENTOS_TRAMITES" EntitySet="TB_DOCUMENTOS_TRAMITES" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TB_USERS_TB_INSTITUCIONES" Association="Self.FK_TB_USERS_TB_INSTITUCIONES">
+      <End Role="TB_INSTITUCIONES" EntitySet="TB_INSTITUCIONES" />
+      <End Role="TB_USERS" EntitySet="TB_USERS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TB_LOG_TB_USERS" Association="Self.FK_TB_LOG_TB_USERS">
+      <End Role="TB_USERS" EntitySet="TB_USERS" />
+      <End Role="TB_LOG" EntitySet="TB_LOG" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TB_MISDOCUMENTOS_TB_TIPO_DOCUMENTOS" Association="Self.FK_TB_MISDOCUMENTOS_TB_TIPO_DOCUMENTOS">
+      <End Role="TB_TIPO_DOCUMENTOS" EntitySet="TB_TIPO_DOCUMENTOS" />
+      <End Role="TB_MISDOCUMENTOS" EntitySet="TB_MISDOCUMENTOS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TB_MISDOCUMENTOS_TB_TRAMITES" Association="Self.FK_TB_MISDOCUMENTOS_TB_TRAMITES">
+      <End Role="TB_TRAMITES" EntitySet="TB_TRAMITES" />
+      <End Role="TB_MISDOCUMENTOS" EntitySet="TB_MISDOCUMENTOS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TB_MISDOCUMENTOS_TB_USERS" Association="Self.FK_TB_MISDOCUMENTOS_TB_USERS">
+      <End Role="TB_USERS" EntitySet="TB_USERS" />
+      <End Role="TB_MISDOCUMENTOS" EntitySet="TB_MISDOCUMENTOS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TB_TRAMITES_TB_CLASIFICACION_TB_TRAMITES" Association="Self.FK_TB_TRAMITES_TB_CLASIFICACION_TB_TRAMITES">
+      <End Role="TB_TRAMITES" EntitySet="TB_TRAMITES" />
+      <End Role="TB_TRAMITES_TB_CLASIFICACION" EntitySet="TB_TRAMITES_TB_CLASIFICACION" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

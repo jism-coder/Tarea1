@@ -1,0 +1,1041 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CNSFFORMULARIOS2Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="IntellIDE_Autorizacion Agentes de Seguros">
+    <Key>
+      <PropertyRef Name="IntellIDE_PK_Autorizacion Agentes de Seguros" />
+    </Key>
+    <Property Name="ContentTypeId" Type="varchar" MaxLength="4000" />
+    <Property Name="Title" Type="varchar" MaxLength="4000" />
+    <Property Name="_ModerationComments" Type="varchar" MaxLength="4000" />
+    <Property Name="File_x0020_Type" Type="varchar" MaxLength="4000" />
+    <Property Name="IntellideUsuario" Type="varchar" MaxLength="4000" />
+    <Property Name="f_Nombre" Type="varchar" MaxLength="4000" />
+    <Property Name="f_Apellido" Type="varchar" MaxLength="4000" />
+    <Property Name="f_Materno" Type="varchar" MaxLength="4000" />
+    <Property Name="f_Email" Type="varchar" MaxLength="4000" />
+    <Property Name="f_RFC" Type="varchar" MaxLength="4000" />
+    <Property Name="f_CURP" Type="varchar" MaxLength="4000" />
+    <Property Name="f_FechaNacimiento" Type="varchar" MaxLength="4000" />
+    <Property Name="f_LugarNacimiento" Type="varchar" MaxLength="4000" />
+    <Property Name="f_Nacionalidad" Type="varchar" MaxLength="4000" />
+    <Property Name="f_Escolaridad" Type="varchar" MaxLength="4000" />
+    <Property Name="f_TelefonoParticular" Type="varchar" MaxLength="4000" />
+    <Property Name="f_TelefonoOficina" Type="varchar" MaxLength="4000" />
+    <Property Name="f_TelefonoCelular" Type="varchar" MaxLength="4000" />
+    <Property Name="f_Calle" Type="varchar" MaxLength="4000" />
+    <Property Name="f_NoExterior" Type="varchar" MaxLength="4000" />
+    <Property Name="f_NoInterior" Type="varchar" MaxLength="4000" />
+    <Property Name="f_CP" Type="varchar" MaxLength="4000" />
+    <Property Name="f_Colonia" Type="varchar" MaxLength="4000" />
+    <Property Name="f_Poblacion" Type="varchar" MaxLength="4000" />
+    <Property Name="f_Estado" Type="varchar" MaxLength="4000" />
+    <Property Name="f_Calle2" Type="varchar" MaxLength="4000" />
+    <Property Name="f_NoExterior2" Type="varchar" MaxLength="4000" />
+    <Property Name="f_NoInterior2" Type="varchar" MaxLength="4000" />
+    <Property Name="f_CP2" Type="varchar" MaxLength="4000" />
+    <Property Name="f_Colonia2" Type="varchar" MaxLength="4000" />
+    <Property Name="f_Poblacion2" Type="varchar" MaxLength="4000" />
+    <Property Name="f_Estado2" Type="varchar" MaxLength="4000" />
+    <Property Name="f_Instituciones" Type="varchar" MaxLength="4000" />
+    <Property Name="Author" Type="varchar" MaxLength="4000" />
+    <Property Name="Editor" Type="varchar" MaxLength="4000" />
+    <Property Name="Modified" Type="varchar" MaxLength="4000" />
+    <Property Name="Created" Type="varchar" MaxLength="4000" />
+    <Property Name="Cedula" Type="varchar" MaxLength="4000" />
+    <Property Name="campo2" Type="varchar" MaxLength="4000" />
+    <Property Name="campo3" Type="varchar" MaxLength="4000" />
+    <Property Name="campo4" Type="varchar" MaxLength="4000" />
+    <Property Name="campo5" Type="varchar" MaxLength="4000" />
+    <Property Name="campo6" Type="varchar" MaxLength="4000" />
+    <Property Name="campo7" Type="varchar" MaxLength="4000" />
+    <Property Name="ID" Type="varchar" MaxLength="4000" />
+    <Property Name="ContentType" Type="varchar" MaxLength="4000" />
+    <Property Name="_HasCopyDestinations" Type="varchar" MaxLength="4000" />
+    <Property Name="_CopySource" Type="varchar" MaxLength="4000" />
+    <Property Name="owshiddenversion" Type="varchar" MaxLength="4000" />
+    <Property Name="WorkflowVersion" Type="varchar" MaxLength="4000" />
+    <Property Name="_UIVersion" Type="varchar" MaxLength="4000" />
+    <Property Name="_UIVersionString" Type="varchar" MaxLength="4000" />
+    <Property Name="Attachments" Type="varchar" MaxLength="4000" />
+    <Property Name="_ModerationStatus" Type="varchar" MaxLength="4000" />
+    <Property Name="Edit" Type="varchar" MaxLength="4000" />
+    <Property Name="LinkTitleNoMenu" Type="varchar" MaxLength="4000" />
+    <Property Name="LinkTitle" Type="varchar" MaxLength="4000" />
+    <Property Name="LinkTitle2" Type="varchar" MaxLength="4000" />
+    <Property Name="SelectTitle" Type="varchar" MaxLength="4000" />
+    <Property Name="InstanceID" Type="varchar" MaxLength="4000" />
+    <Property Name="Order" Type="varchar" MaxLength="4000" />
+    <Property Name="GUID" Type="varchar" MaxLength="4000" />
+    <Property Name="WorkflowInstanceID" Type="varchar" MaxLength="4000" />
+    <Property Name="FileRef" Type="varchar" MaxLength="4000" />
+    <Property Name="FileDirRef" Type="varchar" MaxLength="4000" />
+    <Property Name="Last_x0020_Modified" Type="varchar" MaxLength="4000" />
+    <Property Name="Created_x0020_Date" Type="varchar" MaxLength="4000" />
+    <Property Name="FSObjType" Type="varchar" MaxLength="4000" />
+    <Property Name="SortBehavior" Type="varchar" MaxLength="4000" />
+    <Property Name="PermMask" Type="varchar" MaxLength="4000" />
+    <Property Name="FileLeafRef" Type="varchar" MaxLength="4000" />
+    <Property Name="UniqueId" Type="varchar" MaxLength="4000" />
+    <Property Name="SyncClientId" Type="varchar" MaxLength="4000" />
+    <Property Name="ProgId" Type="varchar" MaxLength="4000" />
+    <Property Name="ScopeId" Type="varchar" MaxLength="4000" />
+    <Property Name="HTML_x0020_File_x0020_Type" Type="varchar" MaxLength="4000" />
+    <Property Name="_EditMenuTableStart" Type="varchar" MaxLength="4000" />
+    <Property Name="_EditMenuTableStart2" Type="varchar" MaxLength="4000" />
+    <Property Name="_EditMenuTableEnd" Type="varchar" MaxLength="4000" />
+    <Property Name="LinkFilenameNoMenu" Type="varchar" MaxLength="4000" />
+    <Property Name="LinkFilename" Type="varchar" MaxLength="4000" />
+    <Property Name="LinkFilename2" Type="varchar" MaxLength="4000" />
+    <Property Name="DocIcon" Type="varchar" MaxLength="4000" />
+    <Property Name="ServerUrl" Type="varchar" MaxLength="4000" />
+    <Property Name="EncodedAbsUrl" Type="varchar" MaxLength="4000" />
+    <Property Name="BaseName" Type="varchar" MaxLength="4000" />
+    <Property Name="MetaInfo" Type="varchar" MaxLength="4000" />
+    <Property Name="_Level" Type="varchar" MaxLength="4000" />
+    <Property Name="_IsCurrentVersion" Type="varchar" MaxLength="4000" />
+    <Property Name="ItemChildCount" Type="varchar" MaxLength="4000" />
+    <Property Name="FolderChildCount" Type="varchar" MaxLength="4000" />
+    <Property Name="IntellIDE_GUID" Type="varchar" MaxLength="4000" />
+    <Property Name="IntellIDE_Owner" Type="bigint" />
+    <Property Name="IntellIDE_Status" Type="int" />
+    <Property Name="IntellIDE_CreatedDate" Type="datetime" />
+    <Property Name="IntellIDE_ModifyDate" Type="datetime" />
+    <Property Name="IntellIDE_PK_Autorizacion Agentes de Seguros" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IntellIDE_Folio" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="IntellIDE_PRUEBA01">
+    <Key>
+      <PropertyRef Name="IntellIDE_PK_PRUEBA01" />
+    </Key>
+    <Property Name="ContentTypeId" Type="varchar" MaxLength="4000" />
+    <Property Name="Title" Type="varchar" MaxLength="4000" />
+    <Property Name="_ModerationComments" Type="varchar" MaxLength="4000" />
+    <Property Name="File_x0020_Type" Type="varchar" MaxLength="4000" />
+    <Property Name="IntellideUsuario" Type="varchar" MaxLength="4000" />
+    <Property Name="f_Nombre" Type="varchar" MaxLength="4000" />
+    <Property Name="f_Apellido" Type="varchar" MaxLength="4000" />
+    <Property Name="f_Materno" Type="varchar" MaxLength="4000" />
+    <Property Name="f_Email" Type="varchar" MaxLength="4000" />
+    <Property Name="f_RFC" Type="varchar" MaxLength="4000" />
+    <Property Name="f_CURP" Type="varchar" MaxLength="4000" />
+    <Property Name="f_FechaNacimiento" Type="varchar" MaxLength="4000" />
+    <Property Name="f_LugarNacimiento" Type="varchar" MaxLength="4000" />
+    <Property Name="f_Nacionalidad" Type="varchar" MaxLength="4000" />
+    <Property Name="f_Escolaridad" Type="varchar" MaxLength="4000" />
+    <Property Name="f_TelefonoParticular" Type="varchar" MaxLength="4000" />
+    <Property Name="f_TelefonoOficina" Type="varchar" MaxLength="4000" />
+    <Property Name="f_TelefonoCelular" Type="varchar" MaxLength="4000" />
+    <Property Name="f_Calle" Type="varchar" MaxLength="4000" />
+    <Property Name="f_NoExterior" Type="varchar" MaxLength="4000" />
+    <Property Name="f_NoInterior" Type="varchar" MaxLength="4000" />
+    <Property Name="f_CP" Type="varchar" MaxLength="4000" />
+    <Property Name="f_Colonia" Type="varchar" MaxLength="4000" />
+    <Property Name="f_Poblacion" Type="varchar" MaxLength="4000" />
+    <Property Name="f_Estado" Type="varchar" MaxLength="4000" />
+    <Property Name="f_Calle2" Type="varchar" MaxLength="4000" />
+    <Property Name="f_NoExterior2" Type="varchar" MaxLength="4000" />
+    <Property Name="f_NoInterior2" Type="varchar" MaxLength="4000" />
+    <Property Name="f_CP2" Type="varchar" MaxLength="4000" />
+    <Property Name="f_Colonia2" Type="varchar" MaxLength="4000" />
+    <Property Name="f_Poblacion2" Type="varchar" MaxLength="4000" />
+    <Property Name="f_Estado2" Type="varchar" MaxLength="4000" />
+    <Property Name="f_Instituciones" Type="varchar" MaxLength="4000" />
+    <Property Name="Author" Type="varchar" MaxLength="4000" />
+    <Property Name="Editor" Type="varchar" MaxLength="4000" />
+    <Property Name="Modified" Type="varchar" MaxLength="4000" />
+    <Property Name="Created" Type="varchar" MaxLength="4000" />
+    <Property Name="campo1" Type="varchar" MaxLength="4000" />
+    <Property Name="campo2" Type="varchar" MaxLength="4000" />
+    <Property Name="campo3" Type="varchar" MaxLength="4000" />
+    <Property Name="campo4" Type="varchar" MaxLength="4000" />
+    <Property Name="campo5" Type="varchar" MaxLength="4000" />
+    <Property Name="campo6" Type="varchar" MaxLength="4000" />
+    <Property Name="campo7" Type="varchar" MaxLength="4000" />
+    <Property Name="campo8" Type="varchar" MaxLength="4000" />
+    <Property Name="campo9" Type="varchar" MaxLength="4000" />
+    <Property Name="campo10" Type="varchar" MaxLength="4000" />
+    <Property Name="campo11" Type="varchar" MaxLength="4000" />
+    <Property Name="ID" Type="varchar" MaxLength="4000" />
+    <Property Name="ContentType" Type="varchar" MaxLength="4000" />
+    <Property Name="_HasCopyDestinations" Type="varchar" MaxLength="4000" />
+    <Property Name="_CopySource" Type="varchar" MaxLength="4000" />
+    <Property Name="owshiddenversion" Type="varchar" MaxLength="4000" />
+    <Property Name="WorkflowVersion" Type="varchar" MaxLength="4000" />
+    <Property Name="_UIVersion" Type="varchar" MaxLength="4000" />
+    <Property Name="_UIVersionString" Type="varchar" MaxLength="4000" />
+    <Property Name="Attachments" Type="varchar" MaxLength="4000" />
+    <Property Name="_ModerationStatus" Type="varchar" MaxLength="4000" />
+    <Property Name="Edit" Type="varchar" MaxLength="4000" />
+    <Property Name="LinkTitleNoMenu" Type="varchar" MaxLength="4000" />
+    <Property Name="LinkTitle" Type="varchar" MaxLength="4000" />
+    <Property Name="LinkTitle2" Type="varchar" MaxLength="4000" />
+    <Property Name="SelectTitle" Type="varchar" MaxLength="4000" />
+    <Property Name="InstanceID" Type="varchar" MaxLength="4000" />
+    <Property Name="Order" Type="varchar" MaxLength="4000" />
+    <Property Name="GUID" Type="varchar" MaxLength="4000" />
+    <Property Name="WorkflowInstanceID" Type="varchar" MaxLength="4000" />
+    <Property Name="FileRef" Type="varchar" MaxLength="4000" />
+    <Property Name="FileDirRef" Type="varchar" MaxLength="4000" />
+    <Property Name="Last_x0020_Modified" Type="varchar" MaxLength="4000" />
+    <Property Name="Created_x0020_Date" Type="varchar" MaxLength="4000" />
+    <Property Name="FSObjType" Type="varchar" MaxLength="4000" />
+    <Property Name="SortBehavior" Type="varchar" MaxLength="4000" />
+    <Property Name="PermMask" Type="varchar" MaxLength="4000" />
+    <Property Name="FileLeafRef" Type="varchar" MaxLength="4000" />
+    <Property Name="UniqueId" Type="varchar" MaxLength="4000" />
+    <Property Name="SyncClientId" Type="varchar" MaxLength="4000" />
+    <Property Name="ProgId" Type="varchar" MaxLength="4000" />
+    <Property Name="ScopeId" Type="varchar" MaxLength="4000" />
+    <Property Name="HTML_x0020_File_x0020_Type" Type="varchar" MaxLength="4000" />
+    <Property Name="_EditMenuTableStart" Type="varchar" MaxLength="4000" />
+    <Property Name="_EditMenuTableStart2" Type="varchar" MaxLength="4000" />
+    <Property Name="_EditMenuTableEnd" Type="varchar" MaxLength="4000" />
+    <Property Name="LinkFilenameNoMenu" Type="varchar" MaxLength="4000" />
+    <Property Name="LinkFilename" Type="varchar" MaxLength="4000" />
+    <Property Name="LinkFilename2" Type="varchar" MaxLength="4000" />
+    <Property Name="DocIcon" Type="varchar" MaxLength="4000" />
+    <Property Name="ServerUrl" Type="varchar" MaxLength="4000" />
+    <Property Name="EncodedAbsUrl" Type="varchar" MaxLength="4000" />
+    <Property Name="BaseName" Type="varchar" MaxLength="4000" />
+    <Property Name="MetaInfo" Type="varchar" MaxLength="4000" />
+    <Property Name="_Level" Type="varchar" MaxLength="4000" />
+    <Property Name="_IsCurrentVersion" Type="varchar" MaxLength="4000" />
+    <Property Name="ItemChildCount" Type="varchar" MaxLength="4000" />
+    <Property Name="FolderChildCount" Type="varchar" MaxLength="4000" />
+    <Property Name="IntellIDE_GUID" Type="varchar" MaxLength="4000" />
+    <Property Name="IntellIDE_Owner" Type="bigint" />
+    <Property Name="IntellIDE_Status" Type="int" />
+    <Property Name="IntellIDE_CreatedDate" Type="datetime" />
+    <Property Name="IntellIDE_ModifyDate" Type="datetime" />
+    <Property Name="IntellIDE_PK_PRUEBA01" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IntellIDE_Folio" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="IntellIDE_PRUEBA02">
+    <Key>
+      <PropertyRef Name="IntellIDE_PK_PRUEBA02" />
+    </Key>
+    <Property Name="ContentTypeId" Type="varchar" MaxLength="4000" />
+    <Property Name="Title" Type="varchar" MaxLength="4000" />
+    <Property Name="_ModerationComments" Type="varchar" MaxLength="4000" />
+    <Property Name="File_x0020_Type" Type="varchar" MaxLength="4000" />
+    <Property Name="IntellideUsuario" Type="varchar" MaxLength="4000" />
+    <Property Name="f_Nombre" Type="varchar" MaxLength="4000" />
+    <Property Name="f_Apellido" Type="varchar" MaxLength="4000" />
+    <Property Name="f_Materno" Type="varchar" MaxLength="4000" />
+    <Property Name="f_Email" Type="varchar" MaxLength="4000" />
+    <Property Name="f_RFC" Type="varchar" MaxLength="4000" />
+    <Property Name="f_CURP" Type="varchar" MaxLength="4000" />
+    <Property Name="f_FechaNacimiento" Type="varchar" MaxLength="4000" />
+    <Property Name="f_LugarNacimiento" Type="varchar" MaxLength="4000" />
+    <Property Name="f_Nacionalidad" Type="varchar" MaxLength="4000" />
+    <Property Name="f_Escolaridad" Type="varchar" MaxLength="4000" />
+    <Property Name="f_TelefonoParticular" Type="varchar" MaxLength="4000" />
+    <Property Name="f_TelefonoOficina" Type="varchar" MaxLength="4000" />
+    <Property Name="f_TelefonoCelular" Type="varchar" MaxLength="4000" />
+    <Property Name="f_Calle" Type="varchar" MaxLength="4000" />
+    <Property Name="f_NoExterior" Type="varchar" MaxLength="4000" />
+    <Property Name="f_NoInterior" Type="varchar" MaxLength="4000" />
+    <Property Name="f_CP" Type="varchar" MaxLength="4000" />
+    <Property Name="f_Colonia" Type="varchar" MaxLength="4000" />
+    <Property Name="f_Poblacion" Type="varchar" MaxLength="4000" />
+    <Property Name="f_Estado" Type="varchar" MaxLength="4000" />
+    <Property Name="f_Calle2" Type="varchar" MaxLength="4000" />
+    <Property Name="f_NoExterior2" Type="varchar" MaxLength="4000" />
+    <Property Name="f_NoInterior2" Type="varchar" MaxLength="4000" />
+    <Property Name="f_CP2" Type="varchar" MaxLength="4000" />
+    <Property Name="f_Colonia2" Type="varchar" MaxLength="4000" />
+    <Property Name="f_Poblacion2" Type="varchar" MaxLength="4000" />
+    <Property Name="f_Estado2" Type="varchar" MaxLength="4000" />
+    <Property Name="f_Instituciones" Type="varchar" MaxLength="4000" />
+    <Property Name="Author" Type="varchar" MaxLength="4000" />
+    <Property Name="Editor" Type="varchar" MaxLength="4000" />
+    <Property Name="Modified" Type="varchar" MaxLength="4000" />
+    <Property Name="Created" Type="varchar" MaxLength="4000" />
+    <Property Name="ID" Type="varchar" MaxLength="4000" />
+    <Property Name="ContentType" Type="varchar" MaxLength="4000" />
+    <Property Name="_HasCopyDestinations" Type="varchar" MaxLength="4000" />
+    <Property Name="_CopySource" Type="varchar" MaxLength="4000" />
+    <Property Name="owshiddenversion" Type="varchar" MaxLength="4000" />
+    <Property Name="WorkflowVersion" Type="varchar" MaxLength="4000" />
+    <Property Name="_UIVersion" Type="varchar" MaxLength="4000" />
+    <Property Name="_UIVersionString" Type="varchar" MaxLength="4000" />
+    <Property Name="Attachments" Type="varchar" MaxLength="4000" />
+    <Property Name="_ModerationStatus" Type="varchar" MaxLength="4000" />
+    <Property Name="Edit" Type="varchar" MaxLength="4000" />
+    <Property Name="LinkTitleNoMenu" Type="varchar" MaxLength="4000" />
+    <Property Name="LinkTitle" Type="varchar" MaxLength="4000" />
+    <Property Name="LinkTitle2" Type="varchar" MaxLength="4000" />
+    <Property Name="SelectTitle" Type="varchar" MaxLength="4000" />
+    <Property Name="InstanceID" Type="varchar" MaxLength="4000" />
+    <Property Name="Order" Type="varchar" MaxLength="4000" />
+    <Property Name="GUID" Type="varchar" MaxLength="4000" />
+    <Property Name="WorkflowInstanceID" Type="varchar" MaxLength="4000" />
+    <Property Name="FileRef" Type="varchar" MaxLength="4000" />
+    <Property Name="FileDirRef" Type="varchar" MaxLength="4000" />
+    <Property Name="Last_x0020_Modified" Type="varchar" MaxLength="4000" />
+    <Property Name="Created_x0020_Date" Type="varchar" MaxLength="4000" />
+    <Property Name="FSObjType" Type="varchar" MaxLength="4000" />
+    <Property Name="SortBehavior" Type="varchar" MaxLength="4000" />
+    <Property Name="PermMask" Type="varchar" MaxLength="4000" />
+    <Property Name="FileLeafRef" Type="varchar" MaxLength="4000" />
+    <Property Name="UniqueId" Type="varchar" MaxLength="4000" />
+    <Property Name="SyncClientId" Type="varchar" MaxLength="4000" />
+    <Property Name="ProgId" Type="varchar" MaxLength="4000" />
+    <Property Name="ScopeId" Type="varchar" MaxLength="4000" />
+    <Property Name="HTML_x0020_File_x0020_Type" Type="varchar" MaxLength="4000" />
+    <Property Name="_EditMenuTableStart" Type="varchar" MaxLength="4000" />
+    <Property Name="_EditMenuTableStart2" Type="varchar" MaxLength="4000" />
+    <Property Name="_EditMenuTableEnd" Type="varchar" MaxLength="4000" />
+    <Property Name="LinkFilenameNoMenu" Type="varchar" MaxLength="4000" />
+    <Property Name="LinkFilename" Type="varchar" MaxLength="4000" />
+    <Property Name="LinkFilename2" Type="varchar" MaxLength="4000" />
+    <Property Name="DocIcon" Type="varchar" MaxLength="4000" />
+    <Property Name="ServerUrl" Type="varchar" MaxLength="4000" />
+    <Property Name="EncodedAbsUrl" Type="varchar" MaxLength="4000" />
+    <Property Name="BaseName" Type="varchar" MaxLength="4000" />
+    <Property Name="MetaInfo" Type="varchar" MaxLength="4000" />
+    <Property Name="_Level" Type="varchar" MaxLength="4000" />
+    <Property Name="_IsCurrentVersion" Type="varchar" MaxLength="4000" />
+    <Property Name="ItemChildCount" Type="varchar" MaxLength="4000" />
+    <Property Name="FolderChildCount" Type="varchar" MaxLength="4000" />
+    <Property Name="IntellIDE_GUID" Type="varchar" MaxLength="4000" />
+    <Property Name="IntellIDE_Owner" Type="bigint" />
+    <Property Name="IntellIDE_Status" Type="int" />
+    <Property Name="IntellIDE_CreatedDate" Type="datetime" />
+    <Property Name="IntellIDE_ModifyDate" Type="datetime" />
+    <Property Name="IntellIDE_PK_PRUEBA02" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IntellIDE_Folio" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="IntellIDE_Refrendo de Agente de Seguros">
+    <Key>
+      <PropertyRef Name="IntellIDE_PK_Refrendo de Agente de Seguros" />
+    </Key>
+    <Property Name="ContentTypeId" Type="varchar" MaxLength="4000" />
+    <Property Name="Title" Type="varchar" MaxLength="4000" />
+    <Property Name="_ModerationComments" Type="varchar" MaxLength="4000" />
+    <Property Name="File_x0020_Type" Type="varchar" MaxLength="4000" />
+    <Property Name="IntellideUsuario" Type="varchar" MaxLength="4000" />
+    <Property Name="f_Nombre" Type="varchar" MaxLength="4000" />
+    <Property Name="f_Apellido" Type="varchar" MaxLength="4000" />
+    <Property Name="f_Materno" Type="varchar" MaxLength="4000" />
+    <Property Name="f_Email" Type="varchar" MaxLength="4000" />
+    <Property Name="f_RFC" Type="varchar" MaxLength="4000" />
+    <Property Name="f_CURP" Type="varchar" MaxLength="4000" />
+    <Property Name="f_FechaNacimiento" Type="varchar" MaxLength="4000" />
+    <Property Name="f_LugarNacimiento" Type="varchar" MaxLength="4000" />
+    <Property Name="f_Nacionalidad" Type="varchar" MaxLength="4000" />
+    <Property Name="f_Escolaridad" Type="varchar" MaxLength="4000" />
+    <Property Name="f_TelefonoParticular" Type="varchar" MaxLength="4000" />
+    <Property Name="f_TelefonoOficina" Type="varchar" MaxLength="4000" />
+    <Property Name="f_TelefonoCelular" Type="varchar" MaxLength="4000" />
+    <Property Name="f_Calle" Type="varchar" MaxLength="4000" />
+    <Property Name="f_NoExterior" Type="varchar" MaxLength="4000" />
+    <Property Name="f_NoInterior" Type="varchar" MaxLength="4000" />
+    <Property Name="f_CP" Type="varchar" MaxLength="4000" />
+    <Property Name="f_Colonia" Type="varchar" MaxLength="4000" />
+    <Property Name="f_Poblacion" Type="varchar" MaxLength="4000" />
+    <Property Name="f_Estado" Type="varchar" MaxLength="4000" />
+    <Property Name="f_Calle2" Type="varchar" MaxLength="4000" />
+    <Property Name="f_NoExterior2" Type="varchar" MaxLength="4000" />
+    <Property Name="f_NoInterior2" Type="varchar" MaxLength="4000" />
+    <Property Name="f_CP2" Type="varchar" MaxLength="4000" />
+    <Property Name="f_Colonia2" Type="varchar" MaxLength="4000" />
+    <Property Name="f_Poblacion2" Type="varchar" MaxLength="4000" />
+    <Property Name="f_Estado2" Type="varchar" MaxLength="4000" />
+    <Property Name="f_Instituciones" Type="varchar" MaxLength="4000" />
+    <Property Name="Author" Type="varchar" MaxLength="4000" />
+    <Property Name="Editor" Type="varchar" MaxLength="4000" />
+    <Property Name="Modified" Type="varchar" MaxLength="4000" />
+    <Property Name="Created" Type="varchar" MaxLength="4000" />
+    <Property Name="Cedula" Type="varchar" MaxLength="4000" />
+    <Property Name="campo2" Type="varchar" MaxLength="4000" />
+    <Property Name="campo3" Type="varchar" MaxLength="4000" />
+    <Property Name="campo4" Type="varchar" MaxLength="4000" />
+    <Property Name="campo5" Type="varchar" MaxLength="4000" />
+    <Property Name="campo6" Type="varchar" MaxLength="4000" />
+    <Property Name="campo7" Type="varchar" MaxLength="4000" />
+    <Property Name="campo8" Type="varchar" MaxLength="4000" />
+    <Property Name="campo9" Type="varchar" MaxLength="4000" />
+    <Property Name="campo10" Type="varchar" MaxLength="4000" />
+    <Property Name="campo11" Type="varchar" MaxLength="4000" />
+    <Property Name="campo12" Type="varchar" MaxLength="4000" />
+    <Property Name="ID" Type="varchar" MaxLength="4000" />
+    <Property Name="ContentType" Type="varchar" MaxLength="4000" />
+    <Property Name="_HasCopyDestinations" Type="varchar" MaxLength="4000" />
+    <Property Name="_CopySource" Type="varchar" MaxLength="4000" />
+    <Property Name="owshiddenversion" Type="varchar" MaxLength="4000" />
+    <Property Name="WorkflowVersion" Type="varchar" MaxLength="4000" />
+    <Property Name="_UIVersion" Type="varchar" MaxLength="4000" />
+    <Property Name="_UIVersionString" Type="varchar" MaxLength="4000" />
+    <Property Name="Attachments" Type="varchar" MaxLength="4000" />
+    <Property Name="_ModerationStatus" Type="varchar" MaxLength="4000" />
+    <Property Name="Edit" Type="varchar" MaxLength="4000" />
+    <Property Name="LinkTitleNoMenu" Type="varchar" MaxLength="4000" />
+    <Property Name="LinkTitle" Type="varchar" MaxLength="4000" />
+    <Property Name="LinkTitle2" Type="varchar" MaxLength="4000" />
+    <Property Name="SelectTitle" Type="varchar" MaxLength="4000" />
+    <Property Name="InstanceID" Type="varchar" MaxLength="4000" />
+    <Property Name="Order" Type="varchar" MaxLength="4000" />
+    <Property Name="GUID" Type="varchar" MaxLength="4000" />
+    <Property Name="WorkflowInstanceID" Type="varchar" MaxLength="4000" />
+    <Property Name="FileRef" Type="varchar" MaxLength="4000" />
+    <Property Name="FileDirRef" Type="varchar" MaxLength="4000" />
+    <Property Name="Last_x0020_Modified" Type="varchar" MaxLength="4000" />
+    <Property Name="Created_x0020_Date" Type="varchar" MaxLength="4000" />
+    <Property Name="FSObjType" Type="varchar" MaxLength="4000" />
+    <Property Name="SortBehavior" Type="varchar" MaxLength="4000" />
+    <Property Name="PermMask" Type="varchar" MaxLength="4000" />
+    <Property Name="FileLeafRef" Type="varchar" MaxLength="4000" />
+    <Property Name="UniqueId" Type="varchar" MaxLength="4000" />
+    <Property Name="SyncClientId" Type="varchar" MaxLength="4000" />
+    <Property Name="ProgId" Type="varchar" MaxLength="4000" />
+    <Property Name="ScopeId" Type="varchar" MaxLength="4000" />
+    <Property Name="HTML_x0020_File_x0020_Type" Type="varchar" MaxLength="4000" />
+    <Property Name="_EditMenuTableStart" Type="varchar" MaxLength="4000" />
+    <Property Name="_EditMenuTableStart2" Type="varchar" MaxLength="4000" />
+    <Property Name="_EditMenuTableEnd" Type="varchar" MaxLength="4000" />
+    <Property Name="LinkFilenameNoMenu" Type="varchar" MaxLength="4000" />
+    <Property Name="LinkFilename" Type="varchar" MaxLength="4000" />
+    <Property Name="LinkFilename2" Type="varchar" MaxLength="4000" />
+    <Property Name="DocIcon" Type="varchar" MaxLength="4000" />
+    <Property Name="ServerUrl" Type="varchar" MaxLength="4000" />
+    <Property Name="EncodedAbsUrl" Type="varchar" MaxLength="4000" />
+    <Property Name="BaseName" Type="varchar" MaxLength="4000" />
+    <Property Name="MetaInfo" Type="varchar" MaxLength="4000" />
+    <Property Name="_Level" Type="varchar" MaxLength="4000" />
+    <Property Name="_IsCurrentVersion" Type="varchar" MaxLength="4000" />
+    <Property Name="ItemChildCount" Type="varchar" MaxLength="4000" />
+    <Property Name="FolderChildCount" Type="varchar" MaxLength="4000" />
+    <Property Name="IntellIDE_GUID" Type="varchar" MaxLength="4000" />
+    <Property Name="IntellIDE_Owner" Type="bigint" />
+    <Property Name="IntellIDE_Status" Type="int" />
+    <Property Name="IntellIDE_CreatedDate" Type="datetime" />
+    <Property Name="IntellIDE_ModifyDate" Type="datetime" />
+    <Property Name="IntellIDE_PK_Refrendo de Agente de Seguros" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IntellIDE_Folio" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="IntellIDE_Tramite de prueba">
+    <Key>
+      <PropertyRef Name="IntellIDE_PK_Tramite de prueba" />
+    </Key>
+    <Property Name="ContentTypeId" Type="varchar" MaxLength="4000" />
+    <Property Name="Title" Type="varchar" MaxLength="4000" />
+    <Property Name="_ModerationComments" Type="varchar" MaxLength="4000" />
+    <Property Name="File_x0020_Type" Type="varchar" MaxLength="4000" />
+    <Property Name="IntellideUsuario" Type="varchar" MaxLength="4000" />
+    <Property Name="f_Nombre" Type="varchar" MaxLength="4000" />
+    <Property Name="f_Apellido" Type="varchar" MaxLength="4000" />
+    <Property Name="f_Materno" Type="varchar" MaxLength="4000" />
+    <Property Name="f_Email" Type="varchar" MaxLength="4000" />
+    <Property Name="f_RFC" Type="varchar" MaxLength="4000" />
+    <Property Name="f_CURP" Type="varchar" MaxLength="4000" />
+    <Property Name="f_FechaNacimiento" Type="varchar" MaxLength="4000" />
+    <Property Name="f_LugarNacimiento" Type="varchar" MaxLength="4000" />
+    <Property Name="f_Nacionalidad" Type="varchar" MaxLength="4000" />
+    <Property Name="f_Escolaridad" Type="varchar" MaxLength="4000" />
+    <Property Name="f_TelefonoParticular" Type="varchar" MaxLength="4000" />
+    <Property Name="f_TelefonoOficina" Type="varchar" MaxLength="4000" />
+    <Property Name="f_TelefonoCelular" Type="varchar" MaxLength="4000" />
+    <Property Name="f_Calle" Type="varchar" MaxLength="4000" />
+    <Property Name="f_NoExterior" Type="varchar" MaxLength="4000" />
+    <Property Name="f_NoInterior" Type="varchar" MaxLength="4000" />
+    <Property Name="f_CP" Type="varchar" MaxLength="4000" />
+    <Property Name="f_Colonia" Type="varchar" MaxLength="4000" />
+    <Property Name="f_Poblacion" Type="varchar" MaxLength="4000" />
+    <Property Name="f_Estado" Type="varchar" MaxLength="4000" />
+    <Property Name="f_Calle2" Type="varchar" MaxLength="4000" />
+    <Property Name="f_NoExterior2" Type="varchar" MaxLength="4000" />
+    <Property Name="f_NoInterior2" Type="varchar" MaxLength="4000" />
+    <Property Name="f_CP2" Type="varchar" MaxLength="4000" />
+    <Property Name="f_Colonia2" Type="varchar" MaxLength="4000" />
+    <Property Name="f_Poblacion2" Type="varchar" MaxLength="4000" />
+    <Property Name="f_Estado2" Type="varchar" MaxLength="4000" />
+    <Property Name="f_Instituciones" Type="varchar" MaxLength="4000" />
+    <Property Name="Author" Type="varchar" MaxLength="4000" />
+    <Property Name="Editor" Type="varchar" MaxLength="4000" />
+    <Property Name="Modified" Type="varchar" MaxLength="4000" />
+    <Property Name="Created" Type="varchar" MaxLength="4000" />
+    <Property Name="ID" Type="varchar" MaxLength="4000" />
+    <Property Name="ContentType" Type="varchar" MaxLength="4000" />
+    <Property Name="_HasCopyDestinations" Type="varchar" MaxLength="4000" />
+    <Property Name="_CopySource" Type="varchar" MaxLength="4000" />
+    <Property Name="owshiddenversion" Type="varchar" MaxLength="4000" />
+    <Property Name="WorkflowVersion" Type="varchar" MaxLength="4000" />
+    <Property Name="_UIVersion" Type="varchar" MaxLength="4000" />
+    <Property Name="_UIVersionString" Type="varchar" MaxLength="4000" />
+    <Property Name="Attachments" Type="varchar" MaxLength="4000" />
+    <Property Name="_ModerationStatus" Type="varchar" MaxLength="4000" />
+    <Property Name="Edit" Type="varchar" MaxLength="4000" />
+    <Property Name="LinkTitleNoMenu" Type="varchar" MaxLength="4000" />
+    <Property Name="LinkTitle" Type="varchar" MaxLength="4000" />
+    <Property Name="LinkTitle2" Type="varchar" MaxLength="4000" />
+    <Property Name="SelectTitle" Type="varchar" MaxLength="4000" />
+    <Property Name="InstanceID" Type="varchar" MaxLength="4000" />
+    <Property Name="Order" Type="varchar" MaxLength="4000" />
+    <Property Name="GUID" Type="varchar" MaxLength="4000" />
+    <Property Name="WorkflowInstanceID" Type="varchar" MaxLength="4000" />
+    <Property Name="FileRef" Type="varchar" MaxLength="4000" />
+    <Property Name="FileDirRef" Type="varchar" MaxLength="4000" />
+    <Property Name="Last_x0020_Modified" Type="varchar" MaxLength="4000" />
+    <Property Name="Created_x0020_Date" Type="varchar" MaxLength="4000" />
+    <Property Name="FSObjType" Type="varchar" MaxLength="4000" />
+    <Property Name="SortBehavior" Type="varchar" MaxLength="4000" />
+    <Property Name="PermMask" Type="varchar" MaxLength="4000" />
+    <Property Name="FileLeafRef" Type="varchar" MaxLength="4000" />
+    <Property Name="UniqueId" Type="varchar" MaxLength="4000" />
+    <Property Name="SyncClientId" Type="varchar" MaxLength="4000" />
+    <Property Name="ProgId" Type="varchar" MaxLength="4000" />
+    <Property Name="ScopeId" Type="varchar" MaxLength="4000" />
+    <Property Name="HTML_x0020_File_x0020_Type" Type="varchar" MaxLength="4000" />
+    <Property Name="_EditMenuTableStart" Type="varchar" MaxLength="4000" />
+    <Property Name="_EditMenuTableStart2" Type="varchar" MaxLength="4000" />
+    <Property Name="_EditMenuTableEnd" Type="varchar" MaxLength="4000" />
+    <Property Name="LinkFilenameNoMenu" Type="varchar" MaxLength="4000" />
+    <Property Name="LinkFilename" Type="varchar" MaxLength="4000" />
+    <Property Name="LinkFilename2" Type="varchar" MaxLength="4000" />
+    <Property Name="DocIcon" Type="varchar" MaxLength="4000" />
+    <Property Name="ServerUrl" Type="varchar" MaxLength="4000" />
+    <Property Name="EncodedAbsUrl" Type="varchar" MaxLength="4000" />
+    <Property Name="BaseName" Type="varchar" MaxLength="4000" />
+    <Property Name="MetaInfo" Type="varchar" MaxLength="4000" />
+    <Property Name="_Level" Type="varchar" MaxLength="4000" />
+    <Property Name="_IsCurrentVersion" Type="varchar" MaxLength="4000" />
+    <Property Name="ItemChildCount" Type="varchar" MaxLength="4000" />
+    <Property Name="FolderChildCount" Type="varchar" MaxLength="4000" />
+    <Property Name="IntellIDE_GUID" Type="varchar" MaxLength="4000" />
+    <Property Name="IntellIDE_Owner" Type="bigint" />
+    <Property Name="IntellIDE_Status" Type="int" />
+    <Property Name="IntellIDE_CreatedDate" Type="datetime" />
+    <Property Name="IntellIDE_ModifyDate" Type="datetime" />
+    <Property Name="IntellIDE_PK_Tramite de prueba" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IntellIDE_Folio" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6013: La tabla o vista 'CNSFFORMULARIOS2.dbo.log' no tiene definida una clave principal y no es posible inferir ninguna clave principal válida. Esta tabla o vista se ha excluido. Para usar la entidad, necesitará revisar el esquema, agregar las claves correctas y quitar sus comentarios.
+        <EntityType Name="log">
+          <Property Name="fl_log" Type="varchar" MaxLength="50" />
+        </EntityType>-->
+  <EntityType Name="TB_ACTIVIDADES">
+    <Key>
+      <PropertyRef Name="PK_ACTIVIDAD" />
+    </Key>
+    <Property Name="PK_ACTIVIDAD" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FL_DESCRIPCION" Type="varchar(max)" />
+    <Property Name="FL_NAME" Type="varchar" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="TB_CLASIFICACION">
+    <Key>
+      <PropertyRef Name="PK_CLASIFICACION" />
+    </Key>
+    <Property Name="PK_CLASIFICACION" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FL_NAME" Type="varchar" MaxLength="500" />
+    <Property Name="FL_GUID" Type="varchar" MaxLength="50" />
+    <Property Name="FL_ORDEN" Type="int" />
+  </EntityType>
+  <EntityType Name="TB_COMENTARIOS">
+    <Key>
+      <PropertyRef Name="PK_COMENTARIO" />
+    </Key>
+    <Property Name="PK_COMENTARIO" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FL_COMENTARIO" Type="varchar(max)" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6013: La tabla o vista 'CNSFFORMULARIOS2.dbo.TB_CP' no tiene definida una clave principal y no es posible inferir ninguna clave principal válida. Esta tabla o vista se ha excluido. Para usar la entidad, necesitará revisar el esquema, agregar las claves correctas y quitar sus comentarios.
+        <EntityType Name="TB_CP">
+          <Property Name="d_codigo" Type="float" />
+          <Property Name="d_asenta" Type="nvarchar" MaxLength="255" />
+          <Property Name="d_tipo_asenta" Type="nvarchar" MaxLength="255" />
+          <Property Name="D_mnpio" Type="nvarchar" MaxLength="255" />
+          <Property Name="d_estado" Type="nvarchar" MaxLength="255" />
+          <Property Name="d_ciudad" Type="nvarchar" MaxLength="255" />
+          <Property Name="d_CP" Type="float" />
+          <Property Name="c_estado" Type="float" />
+          <Property Name="c_oficina" Type="float" />
+          <Property Name="c_CP" Type="nvarchar" MaxLength="255" />
+          <Property Name="c_tipo_asenta" Type="float" />
+          <Property Name="c_mnpio" Type="float" />
+          <Property Name="id_asenta_cpcons" Type="float" />
+          <Property Name="d_zona" Type="nvarchar" MaxLength="255" />
+          <Property Name="c_cve_ciudad" Type="float" />
+          <Property Name="F16" Type="nvarchar" MaxLength="255" />
+          <Property Name="F17" Type="nvarchar" MaxLength="255" />
+          <Property Name="F18" Type="nvarchar" MaxLength="255" />
+          <Property Name="F19" Type="nvarchar" MaxLength="255" />
+          <Property Name="F20" Type="nvarchar" MaxLength="255" />
+          <Property Name="F21" Type="nvarchar" MaxLength="255" />
+          <Property Name="F22" Type="nvarchar" MaxLength="255" />
+        </EntityType>-->
+  <EntityType Name="TB_DIRECCIONES">
+    <Key>
+      <PropertyRef Name="PK_DIRECCION" />
+    </Key>
+    <Property Name="PK_DIRECCION" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FL_TIPO" Type="int" />
+    <Property Name="FL_CALLE" Type="varchar" MaxLength="500" />
+    <Property Name="FL_NUMERO_I" Type="varchar" MaxLength="50" />
+    <Property Name="FL_NUMERO_E" Type="varchar" MaxLength="50" />
+    <Property Name="FL_COLONIA" Type="varchar" MaxLength="500" />
+    <Property Name="FL_POBLACION" Type="varchar" MaxLength="500" />
+    <Property Name="FL_ESTADO" Type="varchar" MaxLength="500" />
+    <Property Name="FL_CP" Type="varchar" MaxLength="500" />
+    <Property Name="FL_TELEFONO" Type="varchar" MaxLength="50" />
+    <Property Name="FK_USER" Type="bigint" />
+    <Property Name="FL_ACTIVO" Type="bit" />
+  </EntityType>
+  <EntityType Name="TB_DOCUMENTOS">
+    <Key>
+      <PropertyRef Name="PK_DOCUMENTO" />
+    </Key>
+    <Property Name="PK_DOCUMENTO" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FL_CIF" Type="image" />
+    <Property Name="FL_MYME_CIF" Type="varchar" MaxLength="150" />
+    <Property Name="FL_RFC" Type="image" />
+    <Property Name="FL_MYME_RFC" Type="varchar" MaxLength="150" />
+    <Property Name="FL_ACTA_N" Type="image" />
+    <Property Name="FL_MYME_ACTA" Type="varchar" MaxLength="150" />
+    <Property Name="FL_FOTO_IR" Type="image" />
+    <Property Name="FL_MYME_IR" Type="varchar" MaxLength="150" />
+    <Property Name="FL_COMPROBANTE_D" Type="image" />
+    <Property Name="FL_MYME_CD" Type="varchar" MaxLength="150" />
+    <Property Name="FL_CERTIFICADO_E" Type="image" />
+    <Property Name="FL_MYME_C_E" Type="varchar" MaxLength="150" />
+    <Property Name="FL_CURP" Type="image" />
+    <Property Name="FL_MYME_CURP" Type="varchar" MaxLength="150" />
+    <Property Name="FL_IDENTIFICACION_O" Type="image" />
+    <Property Name="FL_MYME_I_O" Type="varchar" MaxLength="150" />
+    <Property Name="FK_USER" Type="bigint" />
+    <Property Name="FL_ACTIVO" Type="bit" />
+    <Property Name="FK_TRAMITE" Type="bigint" />
+  </EntityType>
+  <EntityType Name="TB_DOCUMENTOS_TRAMITES">
+    <Key>
+      <PropertyRef Name="PK_OFICINA_TRAMITE" />
+    </Key>
+    <Property Name="PK_OFICINA_TRAMITE" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FK_TRAMITE" Type="bigint" />
+    <Property Name="FK_DOCUMENTO" Type="bigint" />
+    <Property Name="FL_ACTIVO" Type="bit" />
+    <Property Name="FL_OBLIGATORIO" Type="bit" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'CNSFFORMULARIOS2.dbo.TB_HTMLS' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="TB_HTMLS">
+    <Key>
+      <PropertyRef Name="PK_HTML" />
+    </Key>
+    <Property Name="PK_HTML" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FL_HTML" Type="text" />
+    <Property Name="FL_ACTIVO" Type="bit" />
+  </EntityType>
+  <EntityType Name="TB_INSTITUCIONES">
+    <Key>
+      <PropertyRef Name="PK_INSTITUCION" />
+    </Key>
+    <Property Name="PK_INSTITUCION" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FL_NAME" Type="varchar" MaxLength="500" />
+    <Property Name="FL_SECTOR" Type="int" />
+    <Property Name="FL_ACTIVO" Type="bit" />
+  </EntityType>
+  <EntityType Name="TB_LOG">
+    <Key>
+      <PropertyRef Name="PK_LOG" />
+    </Key>
+    <Property Name="PK_LOG" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FL_ACTIVIDAD" Type="varchar" MaxLength="500" />
+    <Property Name="FK_USER" Type="bigint" />
+    <Property Name="FL_TIPO" Type="int" />
+    <Property Name="FL_FECHA" Type="datetime" />
+    <Property Name="FK_ACTIVIDAD" Type="bigint" />
+  </EntityType>
+  <EntityType Name="TB_MISDOCUMENTOS">
+    <Key>
+      <PropertyRef Name="PK_MISDOCUMENTOS" />
+    </Key>
+    <Property Name="PK_MISDOCUMENTOS" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FK_USER" Type="bigint" />
+    <Property Name="FK_TIPO_DOCUMENTO" Type="bigint" />
+    <Property Name="FL_ARCHIVO" Type="varbinary(max)" />
+    <Property Name="FL_MIME" Type="varchar" MaxLength="1000" />
+    <Property Name="FK_TRAMITE" Type="bigint" />
+    <Property Name="FL_SOLICITUD" Type="varchar" MaxLength="50" />
+    <Property Name="FL_ACTIVO" Type="bit" />
+  </EntityType>
+  <EntityType Name="TB_OFICINAS">
+    <Key>
+      <PropertyRef Name="PK_OFICINA" />
+    </Key>
+    <Property Name="PK_OFICINA" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FL_NAME" Type="varchar" MaxLength="500" />
+    <Property Name="FL_DIRECCION" Type="text" />
+    <Property Name="FL_EMAIL" Type="varchar" MaxLength="500" />
+    <Property Name="FL_TELEFONO" Type="varchar" MaxLength="50" />
+    <Property Name="FL_HORA_MI" Type="varchar" MaxLength="50" />
+    <Property Name="FL_HORA_MF" Type="varchar" MaxLength="50" />
+    <Property Name="FL_HORA_VI" Type="varchar" MaxLength="50" />
+    <Property Name="FL_HORA_VF" Type="varchar" MaxLength="50" />
+    <Property Name="FL_ESTATUS" Type="int" />
+    <Property Name="FL_DIAS_INHABILES" Type="varchar" MaxLength="100" />
+    <Property Name="FL_GUID" Type="varchar" MaxLength="50" />
+    <Property Name="FL_URL" Type="varchar" MaxLength="500" />
+    <Property Name="FL_ZONA" Type="varchar" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="TB_OFICINAS_TB_TRAMITES">
+    <Key>
+      <PropertyRef Name="PK_OFICINA_TRAMITE" />
+    </Key>
+    <Property Name="PK_OFICINA_TRAMITE" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FK_TRAMITE" Type="bigint" />
+    <Property Name="FK_OFICINA" Type="bigint" />
+    <Property Name="FL_CAPACIDAD" Type="int" />
+  </EntityType>
+  <EntityType Name="TB_TIPO_DOCUMENTOS">
+    <Key>
+      <PropertyRef Name="PK_TIPO_DOCUMENTO" />
+    </Key>
+    <Property Name="PK_TIPO_DOCUMENTO" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FL_NOMBRE" Type="varchar" MaxLength="500" />
+    <Property Name="FL_GUID" Type="varchar" MaxLength="50" />
+    <Property Name="FL_CADUCIDAD" Type="int" />
+    <Property Name="FL_CONSERVA" Type="bit" />
+    <Property Name="FL_TIPO" Type="varchar" MaxLength="8000" />
+    <Property Name="FL_AGREGADO" Type="bit" />
+    <Property Name="FL_MIS" Type="bit" />
+  </EntityType>
+  <EntityType Name="TB_TRAMITES">
+    <Key>
+      <PropertyRef Name="PK_TRAMITE" />
+    </Key>
+    <Property Name="PK_TRAMITE" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FL_NAME" Type="varchar" MaxLength="500" />
+    <Property Name="FL_DESCRIPCION" Type="text" />
+    <Property Name="FK_TIPO_TRAMITE" Type="bigint" />
+    <Property Name="FL_AUTENTIFICACION" Type="int" />
+    <Property Name="FL_CITA" Type="bit" />
+    <Property Name="FL_DURACION" Type="int" Nullable="false" />
+    <Property Name="FL_ESTATUS" Type="int" />
+    <Property Name="FL_ACUSE" Type="text" />
+    <Property Name="FL_ARCHIVO" Type="image" />
+    <Property Name="FL_GUID" Type="varchar" MaxLength="50" />
+    <Property Name="FL_MYME" Type="varchar" MaxLength="500" />
+    <Property Name="FL_REQUERIMIENTO" Type="varchar" MaxLength="350" />
+    <Property Name="FL_URL" Type="varchar" MaxLength="1000" />
+    <Property Name="FL_GUID_SERVICIO" Type="varchar" MaxLength="50" />
+    <Property Name="FL_DIAS" Type="int" />
+    <Property Name="FL_NOMBRE_LARGO" Type="varchar" MaxLength="1000" />
+    <Property Name="FL_TRAMITE_RELACIONADO" Type="varchar" MaxLength="50" />
+    <Property Name="FL_SISTEMA" Type="varchar" MaxLength="50" />
+    <Property Name="FL_ORDEN" Type="bigint" />
+  </EntityType>
+  <EntityType Name="TB_TRAMITES_TB_CLASIFICACION">
+    <Key>
+      <PropertyRef Name="PK_TRAMITE_CLASIFICACION" />
+    </Key>
+    <Property Name="PK_TRAMITE_CLASIFICACION" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FK_CLASIFICACION" Type="bigint" />
+    <Property Name="FK_TRAMITE" Type="bigint" />
+    <Property Name="FK_PADRE" Type="bigint" />
+  </EntityType>
+  <EntityType Name="TB_USER_TB_TRAMITES">
+    <Key>
+      <PropertyRef Name="PK_USER_TRAMITE" />
+    </Key>
+    <Property Name="PK_USER_TRAMITE" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FK_USER" Type="bigint" />
+    <Property Name="FK_TRAMITE" Type="bigint" />
+  </EntityType>
+  <EntityType Name="TB_USERS">
+    <Key>
+      <PropertyRef Name="PK_USER" />
+    </Key>
+    <Property Name="PK_USER" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FL_NOMBRE" Type="varchar" MaxLength="100" />
+    <Property Name="FL_EMAIL" Type="varchar" MaxLength="100" />
+    <Property Name="FL_PASSWORD" Type="varchar" MaxLength="50" />
+    <Property Name="FL_ESTATUS" Type="int" />
+    <Property Name="FL_RFC" Type="varchar" MaxLength="13" />
+    <Property Name="FL_CURP" Type="varchar" MaxLength="18" />
+    <Property Name="FL_FECHA" Type="datetime" />
+    <Property Name="FL_PERFIL" Type="int" />
+    <Property Name="FK_INSTITUCION" Type="bigint" />
+    <Property Name="FL_APELLIDO_P" Type="varchar" MaxLength="50" />
+    <Property Name="FL_APELLIDO_M" Type="varchar" MaxLength="50" />
+    <Property Name="FL_GUID" Type="varchar" MaxLength="50" />
+    <Property Name="FL_TELEFONO_O" Type="varchar" MaxLength="20" />
+    <Property Name="FL_TELEFONO_P" Type="varchar" MaxLength="20" />
+    <Property Name="FL_TEL_CEL" Type="varchar" MaxLength="20" />
+    <Property Name="FL_CALLE_F" Type="varchar" MaxLength="100" />
+    <Property Name="FL_NUM_I_F" Type="varchar" MaxLength="20" />
+    <Property Name="FL_NUMERO_E_F" Type="varchar" MaxLength="20" />
+    <Property Name="FL_COLONIA_F" Type="varchar" MaxLength="100" />
+    <Property Name="FL_POBLACION_F" Type="varchar" MaxLength="100" />
+    <Property Name="FL_ESTADO_F" Type="varchar" MaxLength="250" />
+    <Property Name="FL_CP_F" Type="varchar" MaxLength="5" />
+    <Property Name="FL_CALLE_P" Type="varchar" MaxLength="100" />
+    <Property Name="FL_NUM_E_P" Type="varchar" MaxLength="20" />
+    <Property Name="FL_NUMERO_I_P" Type="varchar" MaxLength="20" />
+    <Property Name="FL_COLONIA_P" Type="varchar" MaxLength="100" />
+    <Property Name="FL_ESTADO_P" Type="varchar" MaxLength="250" />
+    <Property Name="FL_CP_P" Type="varchar" MaxLength="5" />
+    <Property Name="FL_POBLACION_P" Type="varchar" MaxLength="100" />
+    <Property Name="FL_TERMINOS" Type="bit" />
+    <Property Name="FL_FECHA_NACIMIENTO" Type="datetime" />
+    <Property Name="FL_NACIONALIDAD" Type="varchar" MaxLength="500" />
+    <Property Name="FL_LUGAR_NACIMEINTO" Type="varchar" MaxLength="500" />
+    <Property Name="FL_ESCOLARIDAD" Type="varchar" MaxLength="500" />
+    <Property Name="FL_SESSION" Type="varchar" MaxLength="500" />
+  </EntityType>
+  <Association Name="FK_TB_DIRECCIONES_TB_USERS">
+    <End Role="TB_USERS" Type="Self.TB_USERS" Multiplicity="0..1" />
+    <End Role="TB_DIRECCIONES" Type="Self.TB_DIRECCIONES" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TB_USERS">
+        <PropertyRef Name="PK_USER" />
+      </Principal>
+      <Dependent Role="TB_DIRECCIONES">
+        <PropertyRef Name="FK_USER" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TB_DOCUMENTOS_TB_TRAMITES">
+    <End Role="TB_TRAMITES" Type="Self.TB_TRAMITES" Multiplicity="0..1" />
+    <End Role="TB_DOCUMENTOS" Type="Self.TB_DOCUMENTOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TB_TRAMITES">
+        <PropertyRef Name="PK_TRAMITE" />
+      </Principal>
+      <Dependent Role="TB_DOCUMENTOS">
+        <PropertyRef Name="FK_TRAMITE" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TB_DOCUMENTOS_TB_USERS">
+    <End Role="TB_USERS" Type="Self.TB_USERS" Multiplicity="0..1" />
+    <End Role="TB_DOCUMENTOS" Type="Self.TB_DOCUMENTOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TB_USERS">
+        <PropertyRef Name="PK_USER" />
+      </Principal>
+      <Dependent Role="TB_DOCUMENTOS">
+        <PropertyRef Name="FK_USER" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TB_DOCUMENTOS_TRAMITES_TB_DOCUMENTOS">
+    <End Role="TB_TIPO_DOCUMENTOS" Type="Self.TB_TIPO_DOCUMENTOS" Multiplicity="0..1" />
+    <End Role="TB_DOCUMENTOS_TRAMITES" Type="Self.TB_DOCUMENTOS_TRAMITES" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TB_TIPO_DOCUMENTOS">
+        <PropertyRef Name="PK_TIPO_DOCUMENTO" />
+      </Principal>
+      <Dependent Role="TB_DOCUMENTOS_TRAMITES">
+        <PropertyRef Name="FK_DOCUMENTO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TB_DOCUMENTOS_TRAMITES_TB_TRAMITES">
+    <End Role="TB_TRAMITES" Type="Self.TB_TRAMITES" Multiplicity="0..1" />
+    <End Role="TB_DOCUMENTOS_TRAMITES" Type="Self.TB_DOCUMENTOS_TRAMITES" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TB_TRAMITES">
+        <PropertyRef Name="PK_TRAMITE" />
+      </Principal>
+      <Dependent Role="TB_DOCUMENTOS_TRAMITES">
+        <PropertyRef Name="FK_TRAMITE" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TB_LOG_TB_ACTIVIDADES">
+    <End Role="TB_ACTIVIDADES" Type="Self.TB_ACTIVIDADES" Multiplicity="0..1" />
+    <End Role="TB_LOG" Type="Self.TB_LOG" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TB_ACTIVIDADES">
+        <PropertyRef Name="PK_ACTIVIDAD" />
+      </Principal>
+      <Dependent Role="TB_LOG">
+        <PropertyRef Name="FK_ACTIVIDAD" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TB_LOG_TB_USERS">
+    <End Role="TB_USERS" Type="Self.TB_USERS" Multiplicity="0..1" />
+    <End Role="TB_LOG" Type="Self.TB_LOG" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TB_USERS">
+        <PropertyRef Name="PK_USER" />
+      </Principal>
+      <Dependent Role="TB_LOG">
+        <PropertyRef Name="FK_USER" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TB_MISDOCUMENTOS_TB_TIPO_DOCUMENTOS">
+    <End Role="TB_TIPO_DOCUMENTOS" Type="Self.TB_TIPO_DOCUMENTOS" Multiplicity="0..1" />
+    <End Role="TB_MISDOCUMENTOS" Type="Self.TB_MISDOCUMENTOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TB_TIPO_DOCUMENTOS">
+        <PropertyRef Name="PK_TIPO_DOCUMENTO" />
+      </Principal>
+      <Dependent Role="TB_MISDOCUMENTOS">
+        <PropertyRef Name="FK_TIPO_DOCUMENTO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TB_MISDOCUMENTOS_TB_TRAMITES">
+    <End Role="TB_TRAMITES" Type="Self.TB_TRAMITES" Multiplicity="0..1" />
+    <End Role="TB_MISDOCUMENTOS" Type="Self.TB_MISDOCUMENTOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TB_TRAMITES">
+        <PropertyRef Name="PK_TRAMITE" />
+      </Principal>
+      <Dependent Role="TB_MISDOCUMENTOS">
+        <PropertyRef Name="FK_TRAMITE" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TB_MISDOCUMENTOS_TB_USERS">
+    <End Role="TB_USERS" Type="Self.TB_USERS" Multiplicity="0..1" />
+    <End Role="TB_MISDOCUMENTOS" Type="Self.TB_MISDOCUMENTOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TB_USERS">
+        <PropertyRef Name="PK_USER" />
+      </Principal>
+      <Dependent Role="TB_MISDOCUMENTOS">
+        <PropertyRef Name="FK_USER" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TB_TRAMITES_TB_CLASIFICACION_TB_CLASIFICACION">
+    <End Role="TB_CLASIFICACION" Type="Self.TB_CLASIFICACION" Multiplicity="0..1" />
+    <End Role="TB_TRAMITES_TB_CLASIFICACION" Type="Self.TB_TRAMITES_TB_CLASIFICACION" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TB_CLASIFICACION">
+        <PropertyRef Name="PK_CLASIFICACION" />
+      </Principal>
+      <Dependent Role="TB_TRAMITES_TB_CLASIFICACION">
+        <PropertyRef Name="FK_CLASIFICACION" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TB_TRAMITES_TB_CLASIFICACION_TB_CLASIFICACION1">
+    <End Role="TB_CLASIFICACION" Type="Self.TB_CLASIFICACION" Multiplicity="0..1" />
+    <End Role="TB_TRAMITES_TB_CLASIFICACION" Type="Self.TB_TRAMITES_TB_CLASIFICACION" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TB_CLASIFICACION">
+        <PropertyRef Name="PK_CLASIFICACION" />
+      </Principal>
+      <Dependent Role="TB_TRAMITES_TB_CLASIFICACION">
+        <PropertyRef Name="FK_PADRE" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TB_TRAMITES_TB_CLASIFICACION_TB_TRAMITES">
+    <End Role="TB_TRAMITES" Type="Self.TB_TRAMITES" Multiplicity="0..1" />
+    <End Role="TB_TRAMITES_TB_CLASIFICACION" Type="Self.TB_TRAMITES_TB_CLASIFICACION" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TB_TRAMITES">
+        <PropertyRef Name="PK_TRAMITE" />
+      </Principal>
+      <Dependent Role="TB_TRAMITES_TB_CLASIFICACION">
+        <PropertyRef Name="FK_TRAMITE" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TB_USERS_TB_INSTITUCIONES">
+    <End Role="TB_INSTITUCIONES" Type="Self.TB_INSTITUCIONES" Multiplicity="0..1" />
+    <End Role="TB_USERS" Type="Self.TB_USERS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TB_INSTITUCIONES">
+        <PropertyRef Name="PK_INSTITUCION" />
+      </Principal>
+      <Dependent Role="TB_USERS">
+        <PropertyRef Name="FK_INSTITUCION" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="CNSFFORMULARIOS2ModelStoreContainer">
+    <EntitySet Name="IntellIDE_Autorizacion Agentes de Seguros" EntityType="Self.IntellIDE_Autorizacion Agentes de Seguros" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="IntellIDE_PRUEBA01" EntityType="Self.IntellIDE_PRUEBA01" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="IntellIDE_PRUEBA02" EntityType="Self.IntellIDE_PRUEBA02" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="IntellIDE_Refrendo de Agente de Seguros" EntityType="Self.IntellIDE_Refrendo de Agente de Seguros" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="IntellIDE_Tramite de prueba" EntityType="Self.IntellIDE_Tramite de prueba" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TB_ACTIVIDADES" EntityType="Self.TB_ACTIVIDADES" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TB_CLASIFICACION" EntityType="Self.TB_CLASIFICACION" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TB_COMENTARIOS" EntityType="Self.TB_COMENTARIOS" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TB_DIRECCIONES" EntityType="Self.TB_DIRECCIONES" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TB_DOCUMENTOS" EntityType="Self.TB_DOCUMENTOS" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TB_DOCUMENTOS_TRAMITES" EntityType="Self.TB_DOCUMENTOS_TRAMITES" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TB_INSTITUCIONES" EntityType="Self.TB_INSTITUCIONES" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TB_LOG" EntityType="Self.TB_LOG" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TB_MISDOCUMENTOS" EntityType="Self.TB_MISDOCUMENTOS" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TB_OFICINAS" EntityType="Self.TB_OFICINAS" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TB_OFICINAS_TB_TRAMITES" EntityType="Self.TB_OFICINAS_TB_TRAMITES" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TB_TIPO_DOCUMENTOS" EntityType="Self.TB_TIPO_DOCUMENTOS" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TB_TRAMITES" EntityType="Self.TB_TRAMITES" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TB_TRAMITES_TB_CLASIFICACION" EntityType="Self.TB_TRAMITES_TB_CLASIFICACION" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TB_USER_TB_TRAMITES" EntityType="Self.TB_USER_TB_TRAMITES" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TB_USERS" EntityType="Self.TB_USERS" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TB_HTMLS" EntityType="Self.TB_HTMLS" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [TB_HTMLS].[PK_HTML] AS [PK_HTML], 
+    [TB_HTMLS].[FL_HTML] AS [FL_HTML], 
+    [TB_HTMLS].[FL_ACTIVO] AS [FL_ACTIVO]
+    FROM [dbo].[TB_HTMLS] AS [TB_HTMLS]</DefiningQuery>
+    </EntitySet>
+    <AssociationSet Name="FK_TB_DIRECCIONES_TB_USERS" Association="Self.FK_TB_DIRECCIONES_TB_USERS">
+      <End Role="TB_USERS" EntitySet="TB_USERS" />
+      <End Role="TB_DIRECCIONES" EntitySet="TB_DIRECCIONES" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TB_DOCUMENTOS_TB_TRAMITES" Association="Self.FK_TB_DOCUMENTOS_TB_TRAMITES">
+      <End Role="TB_TRAMITES" EntitySet="TB_TRAMITES" />
+      <End Role="TB_DOCUMENTOS" EntitySet="TB_DOCUMENTOS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TB_DOCUMENTOS_TB_USERS" Association="Self.FK_TB_DOCUMENTOS_TB_USERS">
+      <End Role="TB_USERS" EntitySet="TB_USERS" />
+      <End Role="TB_DOCUMENTOS" EntitySet="TB_DOCUMENTOS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TB_DOCUMENTOS_TRAMITES_TB_DOCUMENTOS" Association="Self.FK_TB_DOCUMENTOS_TRAMITES_TB_DOCUMENTOS">
+      <End Role="TB_TIPO_DOCUMENTOS" EntitySet="TB_TIPO_DOCUMENTOS" />
+      <End Role="TB_DOCUMENTOS_TRAMITES" EntitySet="TB_DOCUMENTOS_TRAMITES" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TB_DOCUMENTOS_TRAMITES_TB_TRAMITES" Association="Self.FK_TB_DOCUMENTOS_TRAMITES_TB_TRAMITES">
+      <End Role="TB_TRAMITES" EntitySet="TB_TRAMITES" />
+      <End Role="TB_DOCUMENTOS_TRAMITES" EntitySet="TB_DOCUMENTOS_TRAMITES" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TB_LOG_TB_ACTIVIDADES" Association="Self.FK_TB_LOG_TB_ACTIVIDADES">
+      <End Role="TB_ACTIVIDADES" EntitySet="TB_ACTIVIDADES" />
+      <End Role="TB_LOG" EntitySet="TB_LOG" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TB_LOG_TB_USERS" Association="Self.FK_TB_LOG_TB_USERS">
+      <End Role="TB_USERS" EntitySet="TB_USERS" />
+      <End Role="TB_LOG" EntitySet="TB_LOG" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TB_MISDOCUMENTOS_TB_TIPO_DOCUMENTOS" Association="Self.FK_TB_MISDOCUMENTOS_TB_TIPO_DOCUMENTOS">
+      <End Role="TB_TIPO_DOCUMENTOS" EntitySet="TB_TIPO_DOCUMENTOS" />
+      <End Role="TB_MISDOCUMENTOS" EntitySet="TB_MISDOCUMENTOS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TB_MISDOCUMENTOS_TB_TRAMITES" Association="Self.FK_TB_MISDOCUMENTOS_TB_TRAMITES">
+      <End Role="TB_TRAMITES" EntitySet="TB_TRAMITES" />
+      <End Role="TB_MISDOCUMENTOS" EntitySet="TB_MISDOCUMENTOS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TB_MISDOCUMENTOS_TB_USERS" Association="Self.FK_TB_MISDOCUMENTOS_TB_USERS">
+      <End Role="TB_USERS" EntitySet="TB_USERS" />
+      <End Role="TB_MISDOCUMENTOS" EntitySet="TB_MISDOCUMENTOS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TB_TRAMITES_TB_CLASIFICACION_TB_CLASIFICACION" Association="Self.FK_TB_TRAMITES_TB_CLASIFICACION_TB_CLASIFICACION">
+      <End Role="TB_CLASIFICACION" EntitySet="TB_CLASIFICACION" />
+      <End Role="TB_TRAMITES_TB_CLASIFICACION" EntitySet="TB_TRAMITES_TB_CLASIFICACION" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TB_TRAMITES_TB_CLASIFICACION_TB_CLASIFICACION1" Association="Self.FK_TB_TRAMITES_TB_CLASIFICACION_TB_CLASIFICACION1">
+      <End Role="TB_CLASIFICACION" EntitySet="TB_CLASIFICACION" />
+      <End Role="TB_TRAMITES_TB_CLASIFICACION" EntitySet="TB_TRAMITES_TB_CLASIFICACION" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TB_TRAMITES_TB_CLASIFICACION_TB_TRAMITES" Association="Self.FK_TB_TRAMITES_TB_CLASIFICACION_TB_TRAMITES">
+      <End Role="TB_TRAMITES" EntitySet="TB_TRAMITES" />
+      <End Role="TB_TRAMITES_TB_CLASIFICACION" EntitySet="TB_TRAMITES_TB_CLASIFICACION" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TB_USERS_TB_INSTITUCIONES" Association="Self.FK_TB_USERS_TB_INSTITUCIONES">
+      <End Role="TB_INSTITUCIONES" EntitySet="TB_INSTITUCIONES" />
+      <End Role="TB_USERS" EntitySet="TB_USERS" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
