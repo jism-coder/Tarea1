@@ -121,6 +121,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Controles\Botones.aspx" />
+    <Content Include="Controles\ListadeUsuarios.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -195,6 +196,7 @@
       <DependentUpon>About.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Consultas\Consultas.cs" />
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -208,6 +210,13 @@
     </Compile>
     <Compile Include="Controles\Botones.aspx.designer.cs">
       <DependentUpon>Botones.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Controles\ListadeUsuarios.aspx.cs">
+      <DependentUpon>ListadeUsuarios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controles\ListadeUsuarios.aspx.designer.cs">
+      <DependentUpon>ListadeUsuarios.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
@@ -327,7 +336,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Consultas\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

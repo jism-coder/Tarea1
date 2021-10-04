@@ -28,16 +28,19 @@ namespace Tarea1.Funciones
                     return;
                 }
 
-                if (!logDirInfo.Exists) logDirInfo.Create();
-                if (!logFileInfo.Exists)
+                if (!logDirInfo.Exists)
                 {
-                    fileStream = logFileInfo.Create();
+                    logDirInfo.Create();
                 }
-                else
-                {
-                    fileStream = new FileStream(logFilePath, FileMode.Append);
+                //if (!logFileInfo.Exists)
+                //{
+                //    fileStream = logFileInfo.Create();
+                //}
+                //else
+                //{
+                //    fileStream = new FileStream(logFilePath, FileMode.Append);
 
-                }
+                //}
                 log = new StreamWriter(fileStream);
                 log.WriteLine(strLog);
                 log.Close();
